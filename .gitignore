@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.*

@@ -30,7 +30,9 @@ for level in levels:
         for exercise in exercises:
             exercise['choices']=rows('SELECT position,choice_text,correct FROM exercise_choices WHERE exercise_id=? ORDER BY position',(exercise['id'],))
         cards=rows('SELECT id,front,back,direction FROM flashcards WHERE lesson_id=? ORDER BY id',(day,))
-        payload[str(day)]={'blocks':[{'type':b['block_type'],'data':json.loads(b['content_json'])} for b in blocks], 'exercises':exercises,'cards':cards}
+        pronunciation=rows('SELECT category,grapheme,ipa,example_fr,example_ipa,meaning_en,articulation,contrast FROM pronunciation_items WHERE lesson_id=? ORDER BY position',(day,))
+        vocabulary=rows('SELECT x.french,x.english,x.part_of_speech,x.gender,x.ipa FROM lesson_lexemes lx JOIN lexemes x ON x.id=lx.lexeme_id WHERE lx.lesson_id=? ORDER BY x.id',(day,))
+        payload[str(day)]={'blocks':[{'type':b['block_type'],'data':json.loads(b['content_json'])} for b in blocks], 'exercises':exercises,'cards':cards,'pronunciation':pronunciation,'vocabulary':vocabulary}
     (OUT/f'{code.lower()}.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 connection.close()
 print('Exported',len(lessons),'days and',len(units),'units')

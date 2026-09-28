@@ -5,3 +5,24 @@
 @media(max-width:800px){.app-shell{display:block}.sidebar{display:none}.topbar{height:70px;padding:0 22px}.content{padding:12px 22px 110px}.mobile-brand{display:flex;align-items:center;gap:9px;font-size:17px;letter-spacing:-.04em;font-weight:750}.mobile-brand .brand-mark{width:32px;height:32px;font-size:20px;border-radius:11px}.topbar .breadcrumb{display:none}.mobile-nav{display:flex;position:fixed;bottom:12px;left:12px;right:12px;z-index:30;padding:6px;background:var(--nav-bg);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid var(--hair);border-radius:24px;box-shadow:0 13px 40px rgba(32,32,68,.17);justify-content:space-around}.mobile-nav button{border:0;background:transparent;color:var(--sub);min-width:64px;min-height:55px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border-radius:16px;font-size:10px;font-weight:720}.mobile-nav button.active{color:var(--accent-dark);background:var(--accent-soft)}.mobile-nav svg{width:19px;height:19px}.dashboard-grid{grid-template-columns:1fr 260px}.next-grid{grid-template-columns:1fr 1fr}.shortcut-row{grid-template-columns:repeat(3,1fr)}.shortcut-icon{display:none}.unit-days{grid-template-columns:repeat(4,1fr)}}
 @media(max-width:620px){.topbar{padding:0 20px}.content{padding:8px 18px 105px}.page-intro h1{font-size:39px}.page-intro p{font-size:14px}.dashboard-grid,.next-grid{grid-template-columns:1fr}.hero{min-height:280px;padding:26px}.hero-copy{max-width:80%}.hero h2{font-size:31px}.hero-art{right:-75px;top:52px;transform:rotate(-12deg) scale(.8);opacity:.43}.rhythm{min-height:204px}.rhythm strong.big-number{font-size:42px;margin-top:16px}.week-dot span{width:24px;height:24px}.section-head{margin-top:30px}.shortcut-row{grid-template-columns:1fr;gap:9px}.shortcut{min-height:66px}.shortcut-icon{display:grid}.shortcut .chevron{display:block}.page-title-row{display:block}.page-title-row h1{font-size:37px}.page-title-row .segment{margin-top:18px}.unit-header{padding:15px;gap:12px}.unit-number{width:41px;height:41px}.unit-days{grid-template-columns:repeat(4,1fr)}.day-button{min-height:72px}.stat-grid{grid-template-columns:repeat(2,1fr)}.stat:last-child{grid-column:span 2}.study-card{min-height:340px}.study-card .actions{align-items:stretch;flex-direction:column}.audio-note{order:2}.lesson-heading{font-size:40px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+.expanded-study{max-width:920px}
+.learning-steps{display:grid;gap:14px;margin:30px 0}
+.learning-step{border:1px solid var(--hair);background:var(--surface,#fff);border-radius:18px;padding:20px 22px}
+.learning-step p,.sound-card p{line-height:1.65;margin:12px 0;color:var(--ink)}
+.learning-example{margin-top:12px;padding:12px 14px;border-radius:11px;background:var(--bg,#f6f6fa);font-size:15px;font-weight:600;line-height:1.5}
+.study-subhead{font-size:22px;margin:30px 0 6px}
+.sound-intro{font-size:14px;color:var(--sub);line-height:1.6}
+.sound-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:18px 0 30px}
+.sound-card{padding:19px;border-radius:17px;background:var(--bg,#f6f6fa);border:1px solid var(--hair)}
+.sound-top{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:19px}
+.sound-ipa{font-family:ui-monospace,monospace;color:var(--accent);font-size:16px}
+.sound-word{margin-top:13px;font-weight:650}
+.sound-word span{font-family:ui-monospace,monospace;font-weight:400;font-size:13px;color:var(--sub)}
+.sound-card small{display:block;margin-top:5px;color:var(--sub)}
+.sound-card p{font-size:13px;margin-bottom:4px}
+.sound-contrast{font-size:12px;color:var(--accent);margin-top:10px}
+.practice-note{border-left:3px solid var(--accent);padding:15px 19px;background:var(--bg,#f6f6fa);border-radius:0 12px 12px 0;margin:26px 0}
+.practice-note p{margin:8px 0 0;line-height:1.6}
+.word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:16px 0 26px}
+.word-item{display:flex;flex-direction:column;gap:5px;padding:12px 15px;background:var(--surface-alt);border-radius:12px}
+.word-item span{font-size:12px;color:var(--sub)}

@@ -2,6 +2,8 @@
 """Build a portable SQLite course seed from curriculum.tsv and schema.sql."""
 import csv, json, sqlite3
 from pathlib import Path
+from expanded_content import apply as apply_expanded_content
+from lexicon_growth import apply as apply_lexicon_growth
 ROOT=Path(__file__).resolve().parent
 DB=ROOT/'french_course.sqlite'
 if DB.exists(): DB.unlink()
@@ -68,7 +70,7 @@ def french_num(n):
     if n>=80:
         if n==80: return 'quatre-vingts'
         return 'quatre-vingt-'+(french_num(n-80) if n!=81 else 'un')
-    if n>=70: return 'soixante-'+(french_num(n-60) if n!=71 else 'et-onze')
+    if n>=70: return 'soixante-'+french_num(n-60) if n!=71 else 'soixante et onze'
     t=(n//10)*10; r=n-t
     if r==0: return tens[t]
     if r==1: return tens[t]+' et un'
@@ -107,6 +109,23 @@ for inf,tenses in tense_forms.items():
         mood='subjunctive' if tense=='subjunctive_present' else 'indicative' if tense in ('imperfect','future') else 'conditional'
         name='present' if tense=='subjunctive_present' else tense
         for person,form in zip(persons,forms): conn.execute('INSERT INTO conjugations VALUES (?,?,?,?,?)',(vid,mood,name,person,form))
+# Predictable -er and regular -ir paradigms are generated from explicit, vetted
+# group membership. Spelling-changing and irregular verbs require separate review.
+regular_verbs={
+'aimer':'like','habiter':'live','regarder':'watch','écouter':'listen','travailler':'work','visiter':'visit','demander':'ask','donner':'give','montrer':'show','trouver':'find','chercher':'look for','marcher':'walk','chanter':'sing','danser':'dance','entrer':'enter','porter':'wear or carry','penser':'think','étudier':'study','préparer':'prepare','présenter':'present','expliquer':'explain','décider':'decide','organiser':'organize','comparer':'compare','réserver':'reserve','inviter':'invite','accepter':'accept','refuser':'refuse','continuer':'continue','terminer':'finish','oublier':'forget','utiliser':'use','rencontrer':'meet','aider':'help','jouer':'play','téléphoner':'call','souhaiter':'wish','proposer':'propose','imaginer':'imagine','respecter':'respect','raconter':'tell','observer':'observe','dessiner':'draw','déjeuner':'have lunch','dîner':'have dinner','apporter':'bring','emporter':'take away','arriver':'arrive','rester':'stay','quitter':'leave','poser':'put down or ask','cacher':'hide','gagner':'win','parier':'bet',
+'choisir':'choose','réussir':'succeed','grandir':'grow','remplir':'fill','réfléchir':'reflect','rougir':'blush','grossir':'gain weight','maigrir':'lose weight','ralentir':'slow down','vieillir':'grow old','obéir':'obey','punir':'punish','bâtir':'build','nourrir':'feed','guérir':'heal','atterrir':'land'}
+endings={'present':(['e','es','e','ons','ez','ent'],['is','is','it','issons','issez','issent']),'imperfect':(['ais','ais','ait','ions','iez','aient'],['issais','issais','issait','issions','issiez','issaient']),'future':(['ai','as','a','ons','ez','ont'],['ai','as','a','ons','ez','ont']),'conditional':(['ais','ais','ait','ions','iez','aient'],['ais','ais','ait','ions','iez','aient'])}
+for inf,english in regular_verbs.items():
+    if inf in verbs: continue
+    group='-er' if inf.endswith('er') else '-ir'
+    assert group=='-er' or inf.endswith('ir')
+    level='A1' if inf in {'aimer','habiter','regarder','écouter','travailler','visiter','demander','donner','chercher','marcher','chanter','danser','entrer','porter','jouer'} else 'A2' if group=='-er' or inf in {'choisir','réussir','grandir','remplir'} else 'B1'
+    cur=conn.execute('INSERT INTO verbs(infinitive,english,group_name,auxiliary,level_code) VALUES (?,?,?,?,?)',(inf,english,group,'être' if inf in {'entrer','arriver','rester'} else 'avoir',level))
+    for tense,(er_endings,ir_endings) in endings.items():
+        stem=inf if tense in ('future','conditional') else inf[:-2]
+        suffixes=er_endings if group=='-er' else ir_endings
+        for person,suffix in zip(persons,suffixes):
+            conn.execute('INSERT INTO conjugations VALUES (?,?,?,?,?)',(cur.lastrowid,'conditional' if tense=='conditional' else 'indicative','present' if tense=='conditional' else tense,person,stem+suffix))
 # High-value lemma inventory, including noun gender. Sentences remain separate phrase flashcards.
 lexicon='''bonjour~hello~interjection~|merci~thank you~interjection~|oui~yes~adverb~|non~no~adverb~|au revoir~goodbye~expression~|s’il vous plaît~please~expression~|ami~friend~noun~m|amie~friend~noun~f|homme~man~noun~m|femme~woman~noun~f|enfant~child~noun~m|livre~book~noun~m|maison~house~noun~f|table~table~noun~f|école~school~noun~f|ville~city~noun~f|jour~day~noun~m|nuit~night~noun~f|matin~morning~noun~m|soir~evening~noun~m|semaine~week~noun~f|année~year~noun~f|temps~time/weather~noun~m|heure~hour~noun~f|eau~water~noun~f|pain~bread~noun~m|café~coffee/café~noun~m|thé~tea~noun~m|repas~meal~noun~m|restaurant~restaurant~noun~m|gare~station~noun~f|train~train~noun~m|billet~ticket~noun~m|rue~street~noun~f|travail~work~noun~m|emploi~job~noun~m|famille~family~noun~f|mère~mother~noun~f|père~father~noun~m|frère~brother~noun~m|sœur~sister~noun~f|voiture~car~noun~f|vélo~bicycle~noun~m|problème~problem~noun~m|solution~solution~noun~f|question~question~noun~f|réponse~answer~noun~f|idée~idea~noun~f|avis~opinion~noun~m|fait~fact~noun~m|preuve~evidence~noun~f|source~source~noun~f|donnée~data point~noun~f|argument~argument~noun~m|accord~agreement~noun~m|désaccord~disagreement~noun~m|grand~big/tall~adjective~|petit~small~adjective~|bon~good~adjective~|mauvais~bad~adjective~|beau~beautiful~adjective~|nouveau~new~adjective~|important~important~adjective~|possible~possible~adjective~|difficile~difficult~adjective~|facile~easy~adjective~|heureux~happy~adjective~|triste~sad~adjective~|ici~here~adverb~|là~there~adverb~|toujours~always~adverb~|souvent~often~adverb~|parfois~sometimes~adverb~|jamais~never~adverb~|aujourd’hui~today~adverb~|demain~tomorrow~adverb~|hier~yesterday~adverb~|avec~with~preposition~|sans~without~preposition~|dans~in~preposition~|sur~on~preposition~|sous~under~preposition~|chez~at someone’s place~preposition~|pour~for~preposition~|contre~against~preposition~|avant~before~preposition~|après~after~preposition~|parce que~because~conjunction~|cependant~however~connector~|néanmoins~nevertheless~connector~|en revanche~on the other hand~connector~'''
 for i,row in enumerate(lexicon.split('|'),1):
@@ -114,17 +133,21 @@ for i,row in enumerate(lexicon.split('|'),1):
     fr,en,pos,gender=row.split('~')
     level='A1' if i<=55 else 'A2' if i<=85 else 'B1'
     cur=conn.execute('INSERT INTO lexemes(french,english,part_of_speech,gender,level_code) VALUES (?,?,?,?,?)',(fr,en,pos,gender or None,level))
-    lesson=3 if level=='A1' else 85 if level=='A2' else 155
+    # Introduce core lemmas gradually at their level, rather than dumping all
+    # A1 words into an A0 lesson or all A2 words on its first day.
+    lesson=(15+((i-1)*2)%70) if level=='A1' else (85+((i-56)*2)%70) if level=='A2' else (155+((i-86)*2)%84)
     for direction,front,back in [('fr_en',fr,en),('en_fr',en,fr)]: conn.execute('INSERT INTO flashcards(lesson_id,lexeme_id,front,back,direction,tags_json) VALUES (?,?,?,?,?,?)',(lesson,cur.lastrowid,front,back,direction,json.dumps(['core_vocabulary',level])))
     conn.execute('INSERT INTO lesson_lexemes VALUES (?,?)',(lesson,cur.lastrowid))
+apply_lexicon_growth(conn)
 for line in (ROOT/'reference_notes.tsv').read_text().splitlines():
     values=line.split('|')
     assert len(values)==6,(len(values),line)
     conn.execute('INSERT INTO reference_notes(level_code,category,title,explanation,example_fr,example_en) VALUES (?,?,?,?,?,?)',values)
 conn.execute('INSERT INTO voice_integrations(name,repository_url,pinned_commit,capability,integration_status,french_verified,notes) VALUES (?,?,?,?,?,?,?)',('BernieTv ElevenLabs-Clone','https://github.com/BernieTv/ElevenLabs-Clone.git','5c3aff322c172ae714c57e930057065982f9f8a8','text_to_speech,voice_conversion,sound_effects','candidate',0,'French synthesis and speech assessment unverified; see VOICE_INTEGRATION.md'))
+apply_expanded_content(conn)
 conn.commit()
 checks={
-'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'verbs':12,'exercises':1140,'exercise_choices':2160,'reference_notes':67,'voice_integrations':1}
+'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'verbs':82,'reference_notes':67,'voice_integrations':1,'content_sources':5}
 for table,expected in checks.items():
     actual=conn.execute(f'SELECT COUNT(*) FROM {table}' if table not in ('learn_lessons','review_lessons') else f"SELECT COUNT(*) FROM lessons WHERE kind='{'learn' if table=='learn_lessons' else 'review'}'").fetchone()[0]
     assert actual==expected,(table,actual,expected)
@@ -132,6 +155,8 @@ assert not conn.execute('PRAGMA foreign_key_check').fetchall()
 assert conn.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
 assert not conn.execute('SELECT exercise_id FROM exercise_choices GROUP BY exercise_id HAVING SUM(correct)!=1 OR COUNT(*)!=3').fetchall()
 assert conn.execute('SELECT COUNT(*) FROM lessons WHERE example_fr IS NULL AND kind="learn"').fetchone()[0]==0
+assert conn.execute('SELECT COUNT(*) FROM pronunciation_items').fetchone()[0]>=50
+assert conn.execute('SELECT COUNT(*) FROM exercises').fetchone()[0]>1800
 cur=conn.execute('SELECT day_number,level,unit_title,kind,title,objective,estimated_minutes,example_fr,example_en FROM daily_course')
 with (ROOT/'course_days.csv').open('w',newline='',encoding='utf-8') as output:
     writer=csv.writer(output)

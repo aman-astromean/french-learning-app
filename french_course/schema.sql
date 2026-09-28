@@ -9,6 +9,9 @@ CREATE TABLE lexemes(id INTEGER PRIMARY KEY, french TEXT NOT NULL, english TEXT 
 CREATE TABLE lesson_lexemes(lesson_id INTEGER NOT NULL REFERENCES lessons(id), lexeme_id INTEGER NOT NULL REFERENCES lexemes(id), PRIMARY KEY(lesson_id,lexeme_id));
 CREATE TABLE alphabet(letter TEXT PRIMARY KEY, letter_name_fr TEXT NOT NULL, ipa TEXT NOT NULL, example TEXT NOT NULL);
 CREATE TABLE sound_patterns(id INTEGER PRIMARY KEY, spelling TEXT NOT NULL, ipa TEXT NOT NULL, example TEXT NOT NULL, note TEXT NOT NULL);
+CREATE TABLE pronunciation_items(id INTEGER PRIMARY KEY, lesson_id INTEGER NOT NULL REFERENCES lessons(id), position INTEGER NOT NULL, category TEXT NOT NULL, grapheme TEXT NOT NULL, ipa TEXT NOT NULL, example_fr TEXT NOT NULL, example_ipa TEXT NOT NULL, meaning_en TEXT NOT NULL, articulation TEXT NOT NULL, contrast TEXT, UNIQUE(lesson_id,position));
+CREATE INDEX idx_pronunciation_lesson ON pronunciation_items(lesson_id,position);
+CREATE TABLE content_sources(id INTEGER PRIMARY KEY, source_url TEXT UNIQUE NOT NULL, title TEXT NOT NULL, usage_note TEXT NOT NULL);
 CREATE TABLE numbers(value INTEGER PRIMARY KEY, french TEXT NOT NULL, english TEXT NOT NULL);
 CREATE TABLE verbs(id INTEGER PRIMARY KEY, infinitive TEXT UNIQUE NOT NULL, english TEXT NOT NULL, group_name TEXT NOT NULL, auxiliary TEXT NOT NULL CHECK(auxiliary IN ('avoir','être')), level_code TEXT NOT NULL REFERENCES levels(code));
 CREATE TABLE conjugations(verb_id INTEGER NOT NULL REFERENCES verbs(id), mood TEXT NOT NULL, tense TEXT NOT NULL, person TEXT NOT NULL, form TEXT NOT NULL, PRIMARY KEY(verb_id,mood,tense,person));

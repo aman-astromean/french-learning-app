@@ -1,6 +1,6 @@
 # Parole web prototype
 
-A responsive, dependency-free front end for the French course database. It includes the daily dashboard, a 60-unit course browser, usable lessons and checkpoint quizzes, flashcards, and device-local progress. It has no account server or recorded voice yet.
+A responsive, dependency-free front end for the French course database. It includes the daily dashboard, a 60-unit course browser, lessons and checkpoint quizzes, flashcards, and device-local progress. The first two weeks now present worked teaching steps and a pronunciation panel with IPA, articulation cues and sound contrasts. Later lessons show guided steps and level-appropriate vocabulary. It has no account server or recorded voice yet.
 
 ## Run locally
 

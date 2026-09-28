@@ -1,18 +1,18 @@
 day_number,level,unit_title,kind,title,objective,estimated_minutes,example_fr,example_en
-1,A0,Letters and sounds,learn,The alphabet,Recognize the alphabet and connect common spellings with sounds. Practice: the alphabet.,18,A comme ami.,A as in friend.
-2,A0,Letters and sounds,learn,Accents,Recognize the alphabet and connect common spellings with sounds. Practice: accents.,18,"Un café, s'il vous plaît.","A coffee, please."
-3,A0,Letters and sounds,learn,Vowels,Recognize the alphabet and connect common spellings with sounds. Practice: vowels.,18,Je dis oui.,I say yes.
-4,A0,Letters and sounds,learn,Nasal vowels,Recognize the alphabet and connect common spellings with sounds. Practice: nasal vowels.,18,Un bon vin.,A good wine.
-5,A0,Letters and sounds,learn,Final letters,Recognize the alphabet and connect common spellings with sounds. Practice: final letters.,18,Le chat est petit.,The cat is small.
-6,A0,Letters and sounds,learn,Liaison and rhythm,Recognize the alphabet and connect common spellings with sounds. Practice: liaison and rhythm.,18,Vous avez un ami.,You have a friend.
-7,A0,Letters and sounds,review,Review: Letters and sounds,"Retrieve this week’s six expressions, then perform a A0 speaking or writing task.",25,,
-8,A0,First words and numbers,learn,Hello and goodbye,"Use greetings, politeness, and small quantities in short exchanges. Practice: hello and goodbye.",18,"Bonjour, à bientôt !","Hello, see you soon!"
-9,A0,First words and numbers,learn,Polite words,"Use greetings, politeness, and small quantities in short exchanges. Practice: polite words.",18,Merci beaucoup.,Thank you very much.
-10,A0,First words and numbers,learn,Names,"Use greetings, politeness, and small quantities in short exchanges. Practice: names.",18,Je m'appelle Alex.,My name is Alex.
-11,A0,First words and numbers,learn,Numbers 0–10,"Use greetings, politeness, and small quantities in short exchanges. Practice: numbers 0–10.",18,J'ai deux livres.,I have two books.
-12,A0,First words and numbers,learn,Numbers 11–20,"Use greetings, politeness, and small quantities in short exchanges. Practice: numbers 11–20.",18,Elle a quinze ans.,She is fifteen years old.
-13,A0,First words and numbers,learn,Introduce yourself,"Use greetings, politeness, and small quantities in short exchanges. Practice: introduce yourself.",18,Je suis étudiant.,I am a student.
-14,A0,First words and numbers,review,Review: First words and numbers,"Retrieve this week’s six expressions, then perform a A0 speaking or writing task.",25,,
+1,A0,"Letters, spelling and vowel sounds",learn,Alphabet A–I,Name A–I and distinguish a letter name from the sound a letter makes inside a word.,30,"A /a/, B /be/, C /se/.","A, B, C letter names."
+2,A0,"Letters, spelling and vowel sounds",learn,Alphabet J–Z,Name J–Z and find letters with two-word names and unfamiliar vowels.,30,"J /ʒi/, R /ɛʁ/, U /y/.","J, R, U letter names."
+3,A0,"Letters, spelling and vowel sounds",learn,Oral vowels a i o,Read clear oral vowels /a i o u y/ in short words.,30,"ami /ami/, ici /isi/, mot /mo/.","friend, here, word."
+4,A0,"Letters, spelling and vowel sounds",learn,Accents and e vowels,Recognize accents and separate /e/ from /ɛ/ without assuming every accent changes pronunciation.,30,"été /ete/, père /pɛʁ/.","summer, father."
+5,A0,"Letters, spelling and vowel sounds",learn,Consonants and final letters,Notice common consonant spellings and silent final letters; read words before combining them.,30,"chat /ʃa/, petit /pəti/.","cat, small."
+6,A0,"Letters, spelling and vowel sounds",learn,Nasal vowels and sound pairs,Distinguish nasal vowels and read frequent vowel pairs without adding a final n.,30,"bon /bɔ̃/, pain /pɛ̃/.","good, bread."
+7,A0,"Letters, spelling and vowel sounds",review,"Review: Letters, spelling and vowel sounds","Retrieve week-one letters, accents, oral vowels and nasals; discriminate before speaking.",40,,
+8,A0,Counting and first sentences,learn,Numbers 0–10,Count 0–10 as isolated words and identify their written forms.,30,"zéro, un, deux, trois.","zero, one, two, three."
+9,A0,Counting and first sentences,learn,Numbers 11–20,Count 11–20 and recognize the 17–19 dix pattern.,30,"onze, douze, treize, vingt.","eleven, twelve, thirteen, twenty."
+10,A0,Counting and first sentences,learn,Tens and counting patterns,"Build 20–69 from tens and units, including the special et un pattern.",30,"vingt, trente, quarante, cinquante.","twenty, thirty, forty, fifty."
+11,A0,Counting and first sentences,learn,Numbers 60–100,Recognize metropolitan French patterns 70–100 and place quantities in order.,30,"soixante-dix, quatre-vingts, cent.","seventy, eighty, one hundred."
+12,A0,Counting and first sentences,learn,Subject pronouns and être,Use subject pronouns with être after mastering sound and number recognition.,30,"je suis, tu es, il est.","I am, you are, he is."
+13,A0,Counting and first sentences,learn,First sentence and question,"Build a subject + verb + short complement, then ask a simple yes/no question by intonation.",30,Je suis ici. Tu es ici ?,I am here. Are you here?
+14,A0,Counting and first sentences,review,Review: Counting and first sentences,"Retrieve numbers, pronoun–verb pairs and the first sentence patterns; identify weak spots.",40,,
 15,A1,Identity and subject pronouns,learn,I and you,Identify people and use subject pronouns with être. Practice: i and you.,18,Je suis ici.,I am here.
 16,A1,Identity and subject pronouns,learn,He and she,Identify people and use subject pronouns with être. Practice: he and she.,18,Elle est française.,She is French.
 17,A1,Identity and subject pronouns,learn,We and they,Identify people and use subject pronouns with être. Practice: we and they.,18,Nous sommes prêts.,We are ready.

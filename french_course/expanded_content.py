@@ -99,6 +99,14 @@ SOURCES=[
  ('drive-reference:b1-subjunctive','B1 subjunctive worksheet','Used as a topic reference only; probability-based simplifications in source are not adopted.'),
  ('https://www.coe.int/en/web/common-european-framework-reference-languages/phonological-competence','CEFR phonological competence','Separates sound articulation from prosody; course tags remain planning labels.')]
 
+REVIEW_TASKS={
+ 'A1':('Record a short everyday exchange and write 50–80 words. Introduce the situation, ask one clear question and give a relevant answer.','meaning, basic word order, intelligibility, appropriate politeness'),
+ 'A2':('Role-play a routine problem in two turns, then write 90–130 words explaining what happened and what you will do next.','task completion, past/future time reference, familiar vocabulary, intelligibility'),
+ 'B1':('Tell a connected personal account for two minutes and write 150–220 words. Explain a choice and support an opinion with a reason and example.','coherence, narrative time, reasons, repair after misunderstanding'),
+ 'B2':('Prepare a three-minute position and a 230–330-word argument. State a claim, consider an objection, respond with an example and conclude.','argument structure, counterargument, source caution, register, fluency'),
+ 'C1':('Present two plausible viewpoints in a four-minute briefing and a 350–450-word synthesis. Identify where the viewpoints converge and where they differ; qualify your own conclusion.','synthesis, qualification, cohesive organization, audience fit, precise vocabulary'),
+ 'C2':('Give a five-minute nuanced response and a 450–600-word analysis for two different audiences. Preserve uncertainty, implication and subtle shifts in register while defending your interpretation.','fine distinctions, rhetorical control, audience adaptation, precision, self-correction')}
+
 def apply(conn):
     conn.executemany('INSERT INTO content_sources(source_url,title,usage_note) VALUES (?,?,?)',SOURCES)
     for day,items in PRONUNCIATION.items():
@@ -112,6 +120,11 @@ def apply(conn):
             continue
         position=conn.execute('SELECT COALESCE(MAX(position),0)+1 FROM pronunciation_items WHERE lesson_id=?',(day,)).fetchone()[0]
         conn.execute('INSERT INTO pronunciation_items(lesson_id,position,category,grapheme,ipa,example_fr,example_ipa,meaning_en,articulation,contrast) VALUES (?,?,?,?,?,?,?,?,?,?)',(day,position,'letter name',letter,ipa,name,ipa,f'letter {letter}','Say the letter name when spelling; its sound inside words can change.',None))
+    for day in (1,2):
+        conn.execute('UPDATE pronunciation_items SET position=-position WHERE lesson_id=?',(day,))
+        letters=conn.execute('SELECT id FROM pronunciation_items WHERE lesson_id=? ORDER BY grapheme',(day,)).fetchall()
+        for pos,(item_id,) in enumerate(letters,1):
+            conn.execute('UPDATE pronunciation_items SET position=? WHERE id=?',(pos,item_id))
     for day,content in A0.items():
         conn.execute('UPDATE lessons SET objective=?,estimated_minutes=? WHERE id=?',(content['goal'],30 if day not in (7,14) else 40,day))
         conn.execute('DELETE FROM lesson_blocks WHERE lesson_id=?',(day,))
@@ -138,8 +151,8 @@ def apply(conn):
                 conn.execute('INSERT INTO flashcards(lesson_id,front,back,direction,tags_json) VALUES (?,?,?,?,?)',(day,front,back,direction,json.dumps(['A0','pronunciation',category],ensure_ascii=False)))
     # Every later day gets a distinct retrieval, noticing and transfer path.
     # This supports a structured app flow while subsequent editorial expansion continues.
-    for row in conn.execute('SELECT l.id,l.title,l.objective,l.example_fr,l.example_en,u.title FROM lessons l JOIN units u ON u.id=l.unit_id WHERE l.id>14').fetchall():
-        day,title,objective,fr,en,unit=row
+    for row in conn.execute('SELECT l.id,l.title,l.objective,l.example_fr,l.example_en,u.title,u.level_code FROM lessons l JOIN units u ON u.id=l.unit_id WHERE l.id>14').fetchall():
+        day,title,objective,fr,en,unit,level=row
         if fr:
             steps=[
               ('Recall','Before reading, name yesterday’s key expression or rule from memory. Revisit a missed card if recall fails.',None),
@@ -156,3 +169,8 @@ def apply(conn):
         if fr:
             conn.execute('INSERT INTO exercises(lesson_id,kind,prompt,answer,explanation,auto_gradable,position) VALUES (?,?,?,?,?,?,?)',(day,'production',f'Change one meaningful detail of “{fr}” and explain what changed in English.',None,'Compare the new meaning and form with the lesson model; valid alternatives need review.',0,3))
             conn.execute('INSERT INTO exercises(lesson_id,kind,prompt,answer,explanation,auto_gradable,position) VALUES (?,?,?,?,?,?,?)',(day,'production',f'In a new context, use today’s focus “{title}” to produce an original French utterance.',None,'Self-check the intended meaning, word order, forms and pronunciation; no automatic correctness claim.',0,4))
+        else:
+            task,rubric=REVIEW_TASKS[level]
+            scenario=f'Topic: {unit}. {task}'
+            conn.execute('UPDATE lesson_blocks SET content_json=? WHERE lesson_id=? AND block_type="review"',(json.dumps({'heading':'Unit performance task','scenario':scenario,'rubric':rubric,'steps':['Retrieve the six focus patterns.','Complete the objective checkpoint.','Record or write the original response.','Use the rubric to self-assess and revisit weak points.'],'pass_threshold':0.8,'certification':False},ensure_ascii=False),day))
+            conn.execute('UPDATE exercises SET prompt=?,explanation=? WHERE lesson_id=? AND kind="production"',(scenario,f'Self-check: {rubric}. Fluency or CEFR attainment cannot be awarded by this seed.',day))

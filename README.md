@@ -1,6 +1,6 @@
 # French Learning App
 
-An app-ready French curriculum database spanning A0 to C2 topics. This repository contains 420 daily lessons across 60 weekly units, quiz and flashcard data, pronunciation reference material, and learner-progress tables.
+An app-ready French curriculum database spanning A0 to C2 topics. This repository contains 420 daily lessons across 60 weekly units, 2,000 conversation words with IPA and examples, quiz and flashcard data, pronunciation reference material, and learner-progress tables.
 
 Open the [web prototype](web/README.md) for a working Apple-inspired interface with a daily dashboard, lessons, quizzes, flashcards, a course map, and local progress.
 

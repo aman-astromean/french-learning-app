@@ -5,6 +5,7 @@ from ipa-dict/fr_FR; seven gaps have independently entered overrides below.
 """
 import csv
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -16,7 +17,7 @@ IPA_OVERRIDES = {
     'en revanche': '/ɑ̃ ʁəvɑ̃ʃ/', 'contre-argument': '/kɔ̃tʁ aʁɡymɑ̃/',
 }
 REGULAR_IR = {'agir', 'saisir', 'établir', 'réunir', 'réagir', 'ralentir', 'remplir', 'choisir', 'réussir', 'finir'}
-IRREGULAR_ER = {'aller', 'envoyer', 'appeler', 'rappeler', 'jeter', 'acheter', 'lever', 'mener', 'élever', 'relever', 'payer', 'essayer', 'appuyer', 'manger', 'changer', 'commencer', 'avancer', 'placer', 'prononcer', 'annoncer', 'espérer', 'préférer', 'considérer', 'posséder', 'répéter', 'créer', 'prier', 'étudier', 'oublier'}
+IRREGULAR_ER = {'aller', 'envoyer', 'appeler', 'rappeler', 'jeter', 'acheter', 'lever', 'enlever', 'soulever', 'mener', 'emmener', 'ramener', 'amener', 'promener', 'élever', 'relever', 'payer', 'essayer', 'appuyer', 'manger', 'changer', 'commencer', 'avancer', 'placer', 'prononcer', 'annoncer', 'espérer', 'préférer', 'considérer', 'posséder', 'répéter', 'créer', 'prier', 'étudier', 'oublier'}
 PERSONS = ('je', 'tu', 'il/elle/on', 'nous', 'vous', 'ils/elles')
 with (ROOT/'conjugation_overrides.tsv').open(encoding='utf-8') as source:
     IRREGULAR_PRESENT = {row['infinitive']: row for row in csv.DictReader(source, delimiter='\t')}
@@ -220,3 +221,36 @@ def apply(conn):
         for direction, front, back in (('fr_en', word, meaning), ('en_fr', meaning, word)):
             conn.execute('INSERT INTO flashcards(lesson_id,lexeme_id,front,back,direction,tags_json) VALUES (?,?,?,?,?,?)',
                          (day, lexeme_id, front, back, direction, json.dumps(['conversation_1000', level])))
+
+
+def apply_extra(conn):
+    """Add a second bank with corpus usage examples and complete verb links."""
+    rows = list(csv.DictReader((ROOT/'conversation_words_extra.tsv').open(encoding='utf-8'), delimiter='\t'))
+    assert len(rows) == 1000 and len({row['french'] for row in rows}) == 1000
+    for offset, row in enumerate(rows):
+        rank = 1001 + offset
+        word, meaning, ipa = row['french'], row['meaning_en'], row['ipa']
+        pos, gender = row['part_of_speech'], row['gender'] or None
+        assert pos in {'noun', 'verb', 'adjective', 'adverb'}
+        assert ipa.startswith('/') and ipa.endswith('/')
+        assert re.search(r'(?<!\w)' + re.escape(word) + r'(?!\w)', row['example_fr'], re.IGNORECASE), word
+        assert row['example_en'].strip() and meaning.strip()
+        assert not conn.execute('SELECT 1 FROM lexemes WHERE french=?', (word,)).fetchone(), word
+        day = 15 + offset // 4
+        level = conn.execute('SELECT u.level_code FROM lessons l JOIN units u ON u.id=l.unit_id WHERE l.day_number=?', (day,)).fetchone()[0]
+        cur = conn.execute('INSERT INTO lexemes(french,english,part_of_speech,gender,level_code,ipa,notes) VALUES (?,?,?,?,?,?,?)',
+                           (word, meaning, pos, gender, level, ipa, f'Corpus usage example; subtitle frequency rank {row["frequency_rank"]}.'))
+        lexeme_id = cur.lastrowid
+        verb_id = None
+        if pos == 'verb':
+            hit = conn.execute('SELECT id FROM verbs WHERE infinitive=?', (word,)).fetchone()
+            verb_id = hit[0] if hit else add_regular_conjugations(conn, word, meaning, level)
+            assert verb_id, f'Missing checked present conjugation for {word}'
+        conn.execute('INSERT INTO conversation_words(rank,lexeme_id,french,meaning_en,ipa,example_fr,example_en,example_status,example_source,verb_id,conjugation_status,introduced_day) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)',
+                     (rank, lexeme_id, word, meaning, ipa, row['example_fr'], row['example_en'],
+                      'corpus_unreviewed', 'Tatoeba French–English pairs via desmondyeoh/data-eng-fra',
+                      verb_id, 'available' if verb_id else 'not_applicable', day))
+        conn.execute('INSERT INTO lesson_lexemes(lesson_id,lexeme_id) VALUES (?,?)', (day, lexeme_id))
+        for direction, front, back in (('fr_en', word, meaning), ('en_fr', meaning, word)):
+            conn.execute('INSERT INTO flashcards(lesson_id,lexeme_id,front,back,direction,tags_json) VALUES (?,?,?,?,?,?)',
+                         (day, lexeme_id, front, back, direction, json.dumps(['conversation_2000', level])))

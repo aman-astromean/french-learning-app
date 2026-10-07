@@ -13,7 +13,7 @@ Its repository did not declare a data license when consulted. The English
 glosses are brief factual translations; review provenance before commercial
 redistribution of the complete selected list.
 
-The 46 present-tense paradigms in `conjugation_overrides.tsv` derive from
+The 50 present-tense paradigms in `conjugation_overrides.tsv` derive from
 [alexedmon1/french-daily](https://github.com/alexedmon1/french-daily),
 `conjugation_data/verbs.json`. Its MIT license follows:
 
@@ -38,3 +38,34 @@ The 46 present-tense paradigms in `conjugation_overrides.tsv` derive from
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
+
+## Second vocabulary bank (ranks 1,001–2,000)
+
+- Lemma, part of speech, available noun gender, and approximate frequency
+  ordering: [wordhoard French sample](https://github.com/natema/wordhoard/blob/main/samples/fr.csv),
+  a CC BY-SA 4.0 dataset. Credit wordhoard, Wiktionary contributors via
+  kaikki.org, OpenSubtitles frequency data via FrequencyWords, and spaCy as
+  described in its [NOTICE](https://github.com/natema/wordhoard/blob/main/NOTICE.md).
+  Additional candidates were selected using
+  [FrequencyWords French subtitles list](https://github.com/hermitdave/FrequencyWords/blob/master/content/2018/fr/fr_50k.txt).
+  The two rank systems are estimates and are not directly comparable.
+- Short English glosses and part-of-speech cross-checks:
+  [French Wiktionary bilingual extraction](https://github.com/pquentin/wiktionary-translations),
+  based on French Wiktionary contributions under CC BY-SA. A gloss selects one
+  sense and is not a complete dictionary definition.
+- IPA: [ipa-dict French (France)](https://github.com/open-dict-data/ipa-dict/blob/master/data/fr_FR.txt).
+  Broad citation forms can vary by region or sentence context.
+- French–English usage examples: text sentences from
+  [Tatoeba](https://tatoeba.org), via a
+  [bilingual text mirror](https://github.com/desmondyeoh/data-eng-fra).
+  Tatoeba contributors release text under
+  [CC BY 2.0 France](https://tatoeba.org/en/terms_of_use).
+  The pairs were selected and aligned to the headwords here; their source
+  authors and IDs were not preserved by the mirror. The rows are labeled
+  `corpus_unreviewed`, because automated sense matching can still pick an
+  awkward example or translation. No recordings are redistributed.
+
+The new vocabulary subset combines share-alike word data with attributed
+Tatoeba sentences. Preserve this notice and the relevant licenses in any
+redistribution of the database or JSON export. Content selection, glosses,
+examples, and CEFR placement still need educator review.

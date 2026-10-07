@@ -18,6 +18,8 @@ IPA_OVERRIDES = {
 REGULAR_IR = {'agir', 'saisir', 'établir', 'réunir', 'réagir', 'ralentir', 'remplir', 'choisir', 'réussir', 'finir'}
 IRREGULAR_ER = {'aller', 'envoyer', 'appeler', 'rappeler', 'jeter', 'acheter', 'lever', 'mener', 'élever', 'relever', 'payer', 'essayer', 'appuyer', 'manger', 'changer', 'commencer', 'avancer', 'placer', 'prononcer', 'annoncer', 'espérer', 'préférer', 'considérer', 'posséder', 'répéter', 'créer', 'prier', 'étudier', 'oublier'}
 PERSONS = ('je', 'tu', 'il/elle/on', 'nous', 'vous', 'ils/elles')
+with (ROOT/'conjugation_overrides.tsv').open(encoding='utf-8') as source:
+    IRREGULAR_PRESENT = {row['infinitive']: row for row in csv.DictReader(source, delimiter='\t')}
 ENDINGS = {
     'present': ('e', 'es', 'e', 'ons', 'ez', 'ent'),
     'imperfect': ('ais', 'ais', 'ait', 'ions', 'iez', 'aient'),
@@ -157,6 +159,14 @@ def example(word, meaning, pos, gender):
 
 
 def add_regular_conjugations(conn, infinitive, meaning, level):
+    if infinitive in IRREGULAR_PRESENT:
+        row = IRREGULAR_PRESENT[infinitive]
+        cur = conn.execute('INSERT INTO verbs(infinitive,english,group_name,auxiliary,level_code) VALUES (?,?,?,?,?)',
+                           (infinitive, meaning.removeprefix('to '), 'irregular', row['auxiliary'], level))
+        for person, key in zip(PERSONS, ('je','tu','il_elle_on','nous','vous','ils_elles')):
+            conn.execute('INSERT INTO conjugations(verb_id,mood,tense,person,form) VALUES (?,"indicative","present",?,?)',
+                         (cur.lastrowid, person, row[key]))
+        return cur.lastrowid
     if infinitive.endswith('er') and infinitive not in IRREGULAR_ER and not infinitive.endswith(('ger', 'cer', 'yer', 'eler', 'eter')) and 'é' not in infinitive[:-2] and 'è' not in infinitive[:-2]:
         group = '-er'
     elif infinitive in REGULAR_IR:

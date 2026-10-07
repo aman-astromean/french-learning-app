@@ -18,6 +18,10 @@ levels = rows('SELECT code,sequence,weeks,outcome FROM levels ORDER BY sequence'
 units = rows('SELECT id,level_code,sequence,title,explanation FROM units ORDER BY sequence')
 lessons = rows('SELECT id,unit_id,day_number,day_in_unit,kind,title,objective,estimated_minutes,example_fr,example_en FROM lessons ORDER BY day_number')
 (OUT/'catalog.json').write_text(json.dumps({'levels':levels,'units':units,'lessons':lessons},ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+conversation=rows('SELECT rank,french,meaning_en,ipa,example_fr,example_en,example_status,conjugation_status,verb_id,introduced_day FROM conversation_words ORDER BY rank')
+for entry in conversation:
+    entry['conjugations']=rows('SELECT mood,tense,person,form FROM conjugations WHERE verb_id=? ORDER BY mood,tense,CASE person WHEN "je" THEN 1 WHEN "tu" THEN 2 WHEN "il/elle/on" THEN 3 WHEN "nous" THEN 4 WHEN "vous" THEN 5 ELSE 6 END',(entry['verb_id'],)) if entry['verb_id'] else []
+(OUT/'conversation_words.json').write_text(json.dumps(conversation,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 for level in levels:
     code=level['code']
     unit_ids=[unit['id'] for unit in units if unit['level_code']==code]

@@ -4,6 +4,7 @@ import csv, json, sqlite3
 from pathlib import Path
 from expanded_content import apply as apply_expanded_content
 from lexicon_growth import apply as apply_lexicon_growth
+from conversation_growth import apply as apply_conversation_growth
 ROOT=Path(__file__).resolve().parent
 DB=ROOT/'french_course.sqlite'
 if DB.exists(): DB.unlink()
@@ -145,9 +146,10 @@ for line in (ROOT/'reference_notes.tsv').read_text().splitlines():
     conn.execute('INSERT INTO reference_notes(level_code,category,title,explanation,example_fr,example_en) VALUES (?,?,?,?,?,?)',values)
 conn.execute('INSERT INTO voice_integrations(name,repository_url,pinned_commit,capability,integration_status,french_verified,notes) VALUES (?,?,?,?,?,?,?)',('BernieTv ElevenLabs-Clone','https://github.com/BernieTv/ElevenLabs-Clone.git','5c3aff322c172ae714c57e930057065982f9f8a8','text_to_speech,voice_conversion,sound_effects','candidate',0,'French synthesis and speech assessment unverified; see VOICE_INTEGRATION.md'))
 apply_expanded_content(conn)
+apply_conversation_growth(conn)
 conn.commit()
 checks={
-'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'verbs':82,'reference_notes':67,'voice_integrations':1,'content_sources':5}
+'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'conversation_words':1000,'reference_notes':67,'voice_integrations':1,'content_sources':5}
 for table,expected in checks.items():
     actual=conn.execute(f'SELECT COUNT(*) FROM {table}' if table not in ('learn_lessons','review_lessons') else f"SELECT COUNT(*) FROM lessons WHERE kind='{'learn' if table=='learn_lessons' else 'review'}'").fetchone()[0]
     assert actual==expected,(table,actual,expected)
@@ -157,6 +159,9 @@ assert not conn.execute('SELECT exercise_id FROM exercise_choices GROUP BY exerc
 assert conn.execute('SELECT COUNT(*) FROM lessons WHERE example_fr IS NULL AND kind="learn"').fetchone()[0]==0
 assert conn.execute('SELECT COUNT(*) FROM pronunciation_items').fetchone()[0]>=50
 assert conn.execute('SELECT COUNT(*) FROM exercises').fetchone()[0]>1800
+assert not conn.execute('SELECT rank FROM conversation_words WHERE trim(meaning_en)="" OR trim(ipa)="" OR trim(example_fr)="" OR trim(example_en)=""').fetchall()
+assert not conn.execute("SELECT rank FROM conversation_words WHERE conjugation_status='available' AND verb_id IS NULL").fetchall()
+assert not conn.execute("SELECT c.rank FROM conversation_words c LEFT JOIN conjugations f ON f.verb_id=c.verb_id AND f.mood='indicative' AND f.tense='present' WHERE c.conjugation_status='available' GROUP BY c.rank HAVING COUNT(f.person)!=6").fetchall()
 cur=conn.execute('SELECT day_number,level,unit_title,kind,title,objective,estimated_minutes,example_fr,example_en FROM daily_course')
 with (ROOT/'course_days.csv').open('w',newline='',encoding='utf-8') as output:
     writer=csv.writer(output)

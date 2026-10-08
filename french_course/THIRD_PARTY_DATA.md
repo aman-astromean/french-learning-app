@@ -39,7 +39,7 @@ The 50 present-tense paradigms in `conjugation_overrides.tsv` derive from
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 
-## Second vocabulary bank (ranks 1,001–2,000)
+## Second and third vocabulary banks (ranks 1,001–3,000)
 
 - Lemma, part of speech, available noun gender, and approximate frequency
   ordering: [wordhoard French sample](https://github.com/natema/wordhoard/blob/main/samples/fr.csv),
@@ -65,7 +65,7 @@ The 50 present-tense paradigms in `conjugation_overrides.tsv` derive from
   `corpus_unreviewed`, because automated sense matching can still pick an
   awkward example or translation. No recordings are redistributed.
 
-The new vocabulary subset combines share-alike word data with attributed
+These two vocabulary subsets combine share-alike word data with attributed
 Tatoeba sentences. Preserve this notice and the relevant licenses in any
 redistribution of the database or JSON export. Content selection, glosses,
 examples, and CEFR placement still need educator review.

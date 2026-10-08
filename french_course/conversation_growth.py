@@ -223,12 +223,12 @@ def apply(conn):
                          (day, lexeme_id, front, back, direction, json.dumps(['conversation_1000', level])))
 
 
-def apply_extra(conn):
-    """Add a second bank with corpus usage examples and complete verb links."""
-    rows = list(csv.DictReader((ROOT/'conversation_words_extra.tsv').open(encoding='utf-8'), delimiter='\t'))
+def apply_corpus_bank(conn, filename, rank_start, day_start, words_per_day, tag):
+    """Add a 1,000-word bank with corpus examples and complete verb links."""
+    rows = list(csv.DictReader((ROOT/filename).open(encoding='utf-8'), delimiter='\t'))
     assert len(rows) == 1000 and len({row['french'] for row in rows}) == 1000
     for offset, row in enumerate(rows):
-        rank = 1001 + offset
+        rank = rank_start + offset
         word, meaning, ipa = row['french'], row['meaning_en'], row['ipa']
         pos, gender = row['part_of_speech'], row['gender'] or None
         assert pos in {'noun', 'verb', 'adjective', 'adverb'}
@@ -236,7 +236,7 @@ def apply_extra(conn):
         assert re.search(r'(?<!\w)' + re.escape(word) + r'(?!\w)', row['example_fr'], re.IGNORECASE), word
         assert row['example_en'].strip() and meaning.strip()
         assert not conn.execute('SELECT 1 FROM lexemes WHERE french=?', (word,)).fetchone(), word
-        day = 15 + offset // 4
+        day = day_start + offset // words_per_day
         level = conn.execute('SELECT u.level_code FROM lessons l JOIN units u ON u.id=l.unit_id WHERE l.day_number=?', (day,)).fetchone()[0]
         cur = conn.execute('INSERT INTO lexemes(french,english,part_of_speech,gender,level_code,ipa,notes) VALUES (?,?,?,?,?,?,?)',
                            (word, meaning, pos, gender, level, ipa, f'Corpus usage example; subtitle frequency rank {row["frequency_rank"]}.'))
@@ -253,4 +253,13 @@ def apply_extra(conn):
         conn.execute('INSERT INTO lesson_lexemes(lesson_id,lexeme_id) VALUES (?,?)', (day, lexeme_id))
         for direction, front, back in (('fr_en', word, meaning), ('en_fr', meaning, word)):
             conn.execute('INSERT INTO flashcards(lesson_id,lexeme_id,front,back,direction,tags_json) VALUES (?,?,?,?,?,?)',
-                         (day, lexeme_id, front, back, direction, json.dumps(['conversation_2000', level])))
+                         (day, lexeme_id, front, back, direction, json.dumps([tag, level])))
+
+
+def apply_extra(conn):
+    apply_corpus_bank(conn, 'conversation_words_extra.tsv', 1001, 15, 4, 'conversation_2000')
+
+
+def apply_third(conn):
+    # Three words per day from A2 onward reach day 418 near the end of C2.
+    apply_corpus_bank(conn, 'conversation_words_part3.tsv', 2001, 85, 3, 'conversation_3000')

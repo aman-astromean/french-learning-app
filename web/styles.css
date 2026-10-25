@@ -26,3 +26,29 @@
 .word-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:16px 0 26px}
 .word-item{display:flex;flex-direction:column;gap:5px;padding:12px 15px;background:var(--surface-alt);border-radius:12px}
 .word-item span{font-size:12px;color:var(--sub)}
+.word-reference{display:block;min-width:0}
+.word-reference summary{cursor:pointer;display:grid;gap:5px;list-style:none}
+.word-reference summary::-webkit-details-marker{display:none}
+.word-reference summary small{font-size:11px;color:var(--accent-dark)}
+.word-reference .word-ipa{font-family:ui-monospace,monospace;font-size:14px;color:var(--accent-dark)}
+.word-detail{border-top:1px solid var(--hair);margin-top:13px;padding-top:4px}
+.word-detail p{font-size:14px;line-height:1.6;margin:12px 0 5px}
+.word-detail h4{margin:18px 0 8px;font-size:13px}
+.word-detail>small{display:block;font-size:11px;line-height:1.5;color:var(--sub)}
+.word-translation{font-size:13px!important;color:var(--sub)}
+.verb-mini{margin:8px 0 14px;font-size:12px}
+.verb-mini>div{display:grid;grid-template-columns:minmax(55px,.7fr) 1fr;gap:8px;border-bottom:1px solid var(--hair);padding:6px 0}
+.verb-mini dt{color:var(--sub)}
+.verb-mini dd{margin:0;overflow-wrap:anywhere}
+.verb-mini dd small{display:block;color:var(--sub);font-family:ui-monospace,monospace}
+.sentence-pattern{border:1px solid var(--hair);border-radius:16px;margin:13px 0;background:var(--surface)}
+.sentence-pattern>summary{padding:17px 20px;cursor:pointer;font-weight:650}
+.sentence-pattern-body{padding:0 20px 20px;font-size:14px;line-height:1.65}
+.sentence-formula{font-family:ui-monospace,monospace;background:var(--surface-alt);padding:12px 14px;border-radius:10px;color:var(--accent-dark);overflow-wrap:anywhere}
+.sentence-chunks,.sentence-tokens{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.sentence-chunks>div{display:grid;gap:3px;padding:10px 13px;background:var(--accent-soft);border-radius:11px}
+.sentence-chunks small{font-size:10px;letter-spacing:.025em;color:var(--sub)}
+.sentence-chunks strong{font-weight:650;font-size:14px}
+.sentence-tokens span{padding:7px 12px;background:var(--surface-alt);border-radius:9px;font-size:13px}
+.sentence-rebuild{border-top:1px solid var(--hair);padding-top:16px;margin-top:20px}
+.sentence-rebuild summary{cursor:pointer;color:var(--accent-dark);font-weight:650}

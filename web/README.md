@@ -23,3 +23,7 @@ The SQLite database remains the canonical content source. `web/export_course.py`
 Progress is stored under `parole-progress-v1` in localStorage. Quiz answer flags exist in the static data and are suitable only for a prototype; move grading to a server before building competitive or certified assessments. Speaking and writing answers show a model for self-check and are not automatically marked correct. The voice integration candidate is documented in `../french_course/VOICE_INTEGRATION.md`.
 
 Design follows the principles in Apple's Human Interface Guidelines: legible type, content hierarchy, adaptive navigation, accessible controls, light/dark appearance, and restrained translucent navigation. This is an independent web design inspired by those principles, not an Apple product or a pixel copy.
+
+## Expanded learning reference
+
+Lesson vocabulary now exposes IPA, contextual examples and present-tense forms in expandable cards. Lessons with sentence patterns show labelled components and a model-rebuilding task. Full exports are in `data/verb_reference.json`, `data/lexical_reference.json` and `data/sentence_reference.json`; the original `conversation_words.json` contract retains its canonical conjugation list. Examples remain unreviewed, and the interface does not claim recorded audio or automatic pronunciation scoring.

@@ -5,6 +5,8 @@ from pathlib import Path
 from expanded_content import apply as apply_expanded_content
 from lexicon_growth import apply as apply_lexicon_growth
 from conversation_growth import apply as apply_conversation_growth, apply_extra as apply_extra_conversation_growth, apply_third as apply_third_conversation_growth
+from complete_content import apply as apply_completed_content
+from sentence_building import apply as apply_sentence_building
 ROOT=Path(__file__).resolve().parent
 DB=ROOT/'french_course.sqlite'
 if DB.exists(): DB.unlink()
@@ -149,9 +151,11 @@ apply_expanded_content(conn)
 apply_conversation_growth(conn)
 apply_extra_conversation_growth(conn)
 apply_third_conversation_growth(conn)
+apply_completed_content(conn)
+apply_sentence_building(conn)
 conn.commit()
 checks={
-'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'conversation_words':3000,'reference_notes':67,'voice_integrations':1,'content_sources':5}
+'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'conversation_words':3000,'reference_notes':67,'voice_integrations':1,'content_sources':8,'sentence_patterns':80,'sentence_tasks':160,'vocabulary_pronunciation':3000}
 for table,expected in checks.items():
     actual=conn.execute(f'SELECT COUNT(*) FROM {table}' if table not in ('learn_lessons','review_lessons') else f"SELECT COUNT(*) FROM lessons WHERE kind='{'learn' if table=='learn_lessons' else 'review'}'").fetchone()[0]
     assert actual==expected,(table,actual,expected)
@@ -163,9 +167,12 @@ assert conn.execute('SELECT COUNT(*) FROM pronunciation_items').fetchone()[0]>=5
 assert conn.execute('SELECT COUNT(*) FROM exercises').fetchone()[0]>1800
 assert not conn.execute('SELECT rank FROM conversation_words WHERE trim(meaning_en)="" OR trim(ipa)="" OR trim(example_fr)="" OR trim(example_en)=""').fetchall()
 assert not conn.execute("SELECT rank FROM conversation_words WHERE conjugation_status='available' AND verb_id IS NULL").fetchall()
-assert not conn.execute("SELECT c.rank FROM conversation_words c LEFT JOIN conjugations f ON f.verb_id=c.verb_id AND f.mood='indicative' AND f.tense='present' WHERE c.conjugation_status='available' GROUP BY c.rank HAVING COUNT(f.person)!=6").fetchall()
-assert conn.execute("SELECT COUNT(*) FROM conversation_words WHERE rank>1000 AND example_status='corpus_unreviewed'").fetchone()[0]==2000
+assert not conn.execute("SELECT c.rank FROM conversation_words c JOIN verb_reference v ON v.verb_id=c.verb_id LEFT JOIN conjugations f ON f.verb_id=c.verb_id AND f.mood='indicative' AND f.tense='present' WHERE c.conjugation_status='available' GROUP BY c.rank HAVING COUNT(f.person)!=CASE WHEN v.impersonal=1 THEN 1 ELSE 6 END").fetchall()
+assert conn.execute("SELECT COUNT(*) FROM conversation_words WHERE rank>1000 AND example_status IN ('corpus_unreviewed','authored_unreviewed')").fetchone()[0]==2000
 assert not conn.execute("SELECT rank FROM conversation_words WHERE rank>1000 AND conjugation_status='pending_review'").fetchall()
+assert not conn.execute("SELECT rank FROM conversation_words WHERE conjugation_status='pending_review' OR example_status='draft'").fetchall()
+assert not conn.execute("SELECT id FROM lexemes WHERE part_of_speech='unclassified'").fetchall()
+assert not conn.execute("SELECT v.id FROM verbs v LEFT JOIN conjugation_coverage c ON c.verb_id=v.id AND c.mood='indicative' AND c.tense='present' WHERE c.status IS NULL OR c.status!='complete'").fetchall()
 cur=conn.execute('SELECT day_number,level,unit_title,kind,title,objective,estimated_minutes,example_fr,example_en FROM daily_course')
 with (ROOT/'course_days.csv').open('w',newline='',encoding='utf-8') as output:
     writer=csv.writer(output)

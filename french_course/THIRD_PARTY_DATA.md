@@ -69,3 +69,33 @@ These two vocabulary subsets combine share-alike word data with attributed
 Tatoeba sentences. Preserve this notice and the relevant licenses in any
 redistribution of the database or JSON export. Content selection, glosses,
 examples, and CEFR placement still need educator review.
+
+## Completed morphology and grammar reference
+
+`completion_reference.json`, the imported morphology tables, and the base
+paradigms underlying pronominal/compound forms derive from **Lefff 3.4** by
+Benoît Sagot and collaborators, as distributed in
+[RosaeNLG's Lefff resource](https://github.com/RosaeNLG/rosaenlg/blob/master/packages/french-verbs-lefff/resources/lefff-3.4.mlex).
+These linguistic-resource portions remain under **LGPL-LR**; the complete
+license is supplied in [licenses/Lefff-LGPL-LR.txt](licenses/Lefff-LGPL-LR.txt).
+The extraction selects this app's lemmas, expands shared feature codes, keeps
+orthographic alternatives, filters non-word aliases and normalizes tense names.
+The source hashes are embedded in `completion_reference.json`.
+
+The extraction implementation is original project code. The upstream parser's
+documented feature codes informed the mapping. Source-derived forms retain
+their linguistic-resource license rather than inheriting a code license.
+Citation IPA is matched from ipa-dict; selected homographs (such as verb *est*
+versus the noun *est*) are disambiguated in `complete_content.py`.
+
+The 1,000 replacement usage examples in `completion_usage.tsv` combine
+Tatoeba corpus selections with original project examples. All examples are
+labelled `corpus_unreviewed` or `authored_unreviewed`; no human editorial signoff
+is implied. `authored_usage.tsv`, `sentence_patterns.tsv`, `phoneme_guides.tsv`
+and the connected-speech explanations were authored for this project.
+
+`prepare_completion_data.py` and `prepare_usage_examples.py` allow the saved
+subsets to be regenerated from local copies of the attributed source dumps.
+The normal `build.py` consumes only checked-in files. Preserve this notice,
+source attributions, and the LGPL-LR license when distributing the derived
+database, reference JSON or relevant morphology exports.

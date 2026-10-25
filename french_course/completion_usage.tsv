@@ -1,0 +1,1001 @@
+french	example_fr	example_en	example_status	example_source
+de	Je viens de Paris.	I come from Paris.	authored_unreviewed	Original project teaching example
+et	Marie et Paul arrivent.	Marie and Paul are arriving.	authored_unreviewed	Original project teaching example
+être	Je suis prêt à partir.	I am ready to leave.	authored_unreviewed	Original project teaching example
+avoir	J’ai deux billets.	I have two tickets.	authored_unreviewed	Original project teaching example
+ne	Je ne sais pas.	I do not know.	authored_unreviewed	Original project teaching example
+son	Il lui a tout laissé dans son testament.	He left everything to her in his will.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+se	Elle se lève tôt.	She gets up early.	authored_unreviewed	Original project teaching example
+en	J’en veux deux.	I want two of them.	authored_unreviewed	Original project teaching example
+ce	Ce livre est intéressant.	This book is interesting.	authored_unreviewed	Original project teaching example
+du	Je veux du pain.	I want some bread.	authored_unreviewed	Original project teaching example
+au	Je vais au marché.	I am going to the market.	authored_unreviewed	Original project teaching example
+pas	Je ne sais pas.	I do not know.	authored_unreviewed	Original project teaching example
+par	Je ne peux pas respirer par le nez.	I can't breath through my nose.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+faire	Je fais le dîner ce soir.	I am making dinner tonight.	authored_unreviewed	Original project teaching example
+plus	Combien y en a-t-il de plus ?	How many more are there?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dire	Je vais dire la vérité.	I am going to tell the truth.	authored_unreviewed	Original project teaching example
+me	Il me parle.	He is speaking to me.	authored_unreviewed	Original project teaching example
+on	On part demain.	We are leaving tomorrow.	authored_unreviewed	Original project teaching example
+lui	Je lui parle.	I speak to him or her.	authored_unreviewed	Original project teaching example
+comme	Tu lui ressembles comme à une goutte d'eau.	You look just like him.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mais	Je viens, mais je suis en retard.	I am coming, but I am late.	authored_unreviewed	Original project teaching example
+pouvoir	Je peux vous aider.	I can help you.	authored_unreviewed	Original project teaching example
+tout	Tout ce que j'ai, ce sont des livres.	All I have is books.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+y	J’y vais demain.	I am going there tomorrow.	authored_unreviewed	Original project teaching example
+aller	Je vais au marché.	I am going to the market.	authored_unreviewed	Original project teaching example
+voir	Je veux voir ce film.	I want to see this film.	authored_unreviewed	Original project teaching example
+bien	Le mobilier fait avec de bons matériaux se vend bien.	Furniture made of good materials sells well.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ou	Tu veux du thé ou du café ?	Do you want tea or coffee?	authored_unreviewed	Original project teaching example
+leur	Tu ne peux pas compter sur leur aide.	You can't count on their help.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+si	Si tu m'avais demandé de t'épouser, j'aurais dit oui.	If you had asked me to marry you, I would have said yes.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+deux	J'espère que vous êtes heureux tous les deux.	I hope you two are happy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+moi	Ce livre est pour moi.	This book is for me.	authored_unreviewed	Original project teaching example
+vouloir	Je veux un café.	I want a coffee.	authored_unreviewed	Original project teaching example
+te	Je te vois.	I see you.	authored_unreviewed	Original project teaching example
+venir	Tu peux venir demain.	You can come tomorrow.	authored_unreviewed	Original project teaching example
+celui	Celui qui a dit ça est un menteur.	The one who said that is a liar.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+notre	Il ne fait pas partie de notre groupe.	He's not in our group.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+prendre	Je vais prendre le train.	I am going to take the train.	authored_unreviewed	Original project teaching example
+même	En as-tu même quelque chose à faire ?	Do you even care?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+votre	Tout ce que je veux, c'est votre chat.	All I want is your cat.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rien	Quoi que ce soit vaut infiniment mieux que rien.	Anything is infinitely better than nothing.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+aussi	Vous feriez aussi bien de venir avec moi.	You may as well come with me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quelque	Il y a peut-être là quelque verité.	There may be some truth to this.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dont	C'est une idée dont le moment est venu.	It's an idea whose time has come.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mer	Je nage à la mer tous les jours.	I swim in the sea every day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+trouver	Je veux trouver une solution.	I want to find a solution.	authored_unreviewed	Original project teaching example
+donner	Je vais donner le livre à Paul.	I am going to give the book to Paul.	authored_unreviewed	Original project teaching example
+ça	Ça va ?	How is it going?	authored_unreviewed	Original project teaching example
+peu	Il avait peu d'amis et peu d'argent.	He had few friends and little money.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+falloir	Il faut partir maintenant.	We have to leave now.	authored_unreviewed	Original project teaching example
+alors	Laissez-moi vous inviter la prochaine fois, alors.	Let me treat you next time, then.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chose	Pourquoi a-t-il fait une telle chose ?	Why did he do such a thing?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ton	Tout ce que je veux, c'est ton chat.	All I want is your cat.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mettre	Je vais mettre le livre sur la table.	I am going to put the book on the table.	authored_unreviewed	Original project teaching example
+vie	La drogue peut foutre ta vie en l'air.	Drugs can ruin your life.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+savoir	Je veux savoir la réponse.	I want to know the answer.	authored_unreviewed	Original project teaching example
+yeux	Je parviens à le voir dans tes yeux.	I can see it in your eyes.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+passer	C'est une manière amusante de passer le temps.	It's a fun way to pass the time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+autre	Y a-t-il un autre chemin d'accès ?	Is there another way in?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+puis	Quand puis-je vous voir la prochaine fois ?	When can I see you next time?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cela	Je ne peux pas faire cela non plus.	I can't do that either.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+croire	Je n'arrive pas à croire que j'ai gagné.	I can't believe I won.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cent	Ma grand-mère paternelle a eu cent ans.	My grandmother on my father's side has turned one hundred.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+monde	Les gens à travers le monde deviennent obèses.	People around the world are getting fatter.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+entre	Ne pouvons-nous pas garder ça entre nous ?	Can't we keep this between us?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+donc	Le magasin est fermé, donc nous reviendrons demain.	The shop is closed, so we will come back tomorrow.	authored_unreviewed	Original project teaching example
+fois	En quoi consiste le boulot, cette fois-ci ?	What's the job this time?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+seul	Étant enfant unique, il était le seul héritier.	Being an only child, he was the sole heir.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vers	Le brouillard commença à se dissiper vers 10 heures.	The fog began to disappear around ten o'clock.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+demander	Je vais demander de l’aide.	I am going to ask for help.	authored_unreviewed	Original project teaching example
+jeune	Il est trop jeune pour y aller seul.	He is too young to go there alone.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jusque	Ce système fonctionna bien jusque dans les années dix-huit-cents-quarante.	This system worked well until the 1840s.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+très	Il est rentré à la maison très tard.	He came home very late.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+moment	Je n'étais pas de service à ce moment.	I was off duty at the time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rester	Quant à moi, je veux rester en vie.	I want to stay alive.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+répondre	Je vais répondre à votre question.	I am going to answer your question.	authored_unreviewed	Original project teaching example
+entendre	Je ne parviens pas à entendre un mot.	I can't hear a word.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mille	Il y avait à peu près mille personnes.	There were about one thousand people.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+premier	Je suis rentré le premier à la maison.	I got home first.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+car	J'étudie le français car j'en ai besoin pour mon travail.	I'm studying French because I need it for my job.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ni	Je ne peux ni confirmer ni infirmer ceci.	I can neither confirm nor deny this.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+trois	Il est parti il y a trois jours.	He left three days ago.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cœur	Elle a trouvé la clé de mon cœur.	She found the key to my heart.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ainsi	Il n'est pas nécessaire qu'il en soit ainsi.	It doesn't have to be like this.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+an	Il est mort il y a un an.	He died one year ago.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quatre	Pourquoi as-tu donc besoin de quatre voitures ?	What do you need four cars for?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+terre	C'est l'homme le plus riche de la Terre.	He is the richest man on earth.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dieu	Oh mon Dieu ! Qu'est-ce que tu fais ?!	Oh my God! What are you doing!?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+monsieur	Est-ce tout ce que vous avez, Monsieur ?	Is this all you have, sir?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voix	J'entendis une voix que je ne reconnus pas.	I heard a voice I didn't recognize.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+penser	Je pense que c'est vous qui l'avez fait.	I think you did it.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quel	De quel choix est-ce que je disposais ?	What choice did I have?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+arriver	Je n'ai jamais voulu que tout ça arrive.	I never wanted all this to happen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+devant	Tout le monde est égal devant la loi.	Everybody is equal before the law.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+coup	Ce coup sur la tête l'étendit inconscient.	That blow on the head knocked him out cold.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+connaître	Je connais cette ville.	I know this city.	authored_unreviewed	Original project teaching example
+devenir	Si tu manges trop, tu vas devenir gros.	If you eat too much, you'll become fat.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+air	Nous avons passé la journée au grand air.	We spent the day in the open air.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mot	Je ne parviens pas à entendre un mot.	I can't hear a word.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sentir	Je me sens un peu dans les vapes.	I feel a little woozy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sembler	Il semble que je dispose du mauvais numéro.	I seem to have the wrong number.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+moins	Moins on en dit, mieux on se porte.	The less said, the better.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tenir	Faites un cercle et tenez-vous la main.	Make a circle and hold hands.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+comprendre	Je comprends cette question.	I understand this question.	authored_unreviewed	Original project teaching example
+rendre	Je sais que tu veux me rendre heureux.	I know you want to make me happy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+toi	Est-ce que je peux compter sur toi ?	Can I rely on you?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vingt	Il peut tout au plus payer vingt dollars.	He can only pay twenty dollars at most.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+attendre	Je vais attendre le bus.	I am going to wait for the bus.	authored_unreviewed	Original project teaching example
+sortir	Je vais sortir ce soir.	I am going out tonight.	authored_unreviewed	Original project teaching example
+trop	Vous feriez mieux de ne pas manger trop.	You had better not eat too much.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lequel	Tu préfères lequel ? Celui-ci ou celui-là ?	Which one do you prefer, this one or that one?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chaque	On ne peut pas gagner à chaque fois.	You can't win every time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+amour	Tout ce que je veux, c'est ton amour.	All I want is your love.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tant	Comment en savez-vous tant à ce sujet ?	How do you know so much about it?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gens	Je parle au nom de tous les gens.	I speak for all people.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nom	Votre nom figure-t-il sur la liste ?	Is your name on the list?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vivre	Je vis juste au haut de la route.	I live just up the road.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+entrer	J'ai vu un homme entrer dans la chambre.	I saw a man enter the room.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+reprendre	Si seulement je pouvais reprendre ce que j'ai dit.	I wish I could take back what I said.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+porter	Je fis porter mon sac par le garçon.	I had the boy carry my bag.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pays	Je suis tout seul dans ce pays étranger.	I am all alone in a foreign country.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ciel	Il était en train de regarder le ciel.	He was looking at the sky.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+regard	Elle m'a lancé un regard plein de signification.	She gave me a meaningful look.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chercher	Je cherche mes clés.	I am looking for my keys.	authored_unreviewed	Original project teaching example
+âme	Pensez-vous que les animaux ont une âme ?	Do you think animals have a soul?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+côté	Je me suis assis à côté de lui.	I sat by his side.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mort	Il a échappé à la mort de justesse.	He barely escaped death.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+enfin	Enfin, la pierre précieuse était dans ses mains.	At last, the gem was in his hands.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+revenir	Elle va revenir bientôt.	She will come back soon.	authored_unreviewed	Original project teaching example
+esprit	Je suppose que mon esprit a simplement divagué.	I guess my mind just wandered.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+maintenant	Est-ce que je pourrais y aller maintenant ?	Can I go now?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+appeler	Appelle-moi si quoi que ce soit change !	Call me if anything changes.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chambre	Je veux que vous sortiez de ma chambre.	I want you out of my room.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mourir	Cette plante peut mourir sans eau.	This plant can die without water.	authored_unreviewed	Original project teaching example
+partir	Je vais partir demain.	I am leaving tomorrow.	authored_unreviewed	Original project teaching example
+cinq	Il travaillait de neuf heures à cinq heures.	He worked from nine to five.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+soleil	Le soleil est plus brillant que la lune.	The sun is brighter than the moon.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dernier	Il m'a fallu travailler le week-end dernier.	I had to work last weekend.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jeter	Jetons-le et recommençons avec une feuille vierge.	Let's throw it away and start over with a clean slate.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dix	Il est revenu chez lui à dix heures.	He came home at ten.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+roi	Il a joué le rôle du Roi Lear.	He acted the part of King Lear.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+état	La route se trouve dans un état déplorable.	The road is in a deplorable state.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+corps	Je veux examiner le corps de la victime.	I want to examine the body of the victim.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+beaucoup	Beaucoup de gens pensent que les avocats sont trop payés.	A lot of people think that lawyers get paid too much.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+suivre	Suis-moi et je te montrerai le chemin.	Follow me and I will show you the way.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+écrire	Je vais écrire un message.	I am going to write a message.	authored_unreviewed	Original project teaching example
+montrer	Veuillez me montrer le chemin, je vous prie.	Show me the way, please.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tomber	Newton a vu une pomme tomber d'un arbre.	Newton saw an apple fall off a tree.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+place	Je ne me sentis pas à ma place.	I felt out of place.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ouvrir	Je vais ouvrir la fenêtre.	I am going to open the window.	authored_unreviewed	Original project teaching example
+ah	Ah, je comprends maintenant !	Ah, I understand now!	authored_unreviewed	Original project teaching example
+parti	Je prendrai votre parti juste pour cette fois.	I will side with you just this once.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+assez	Je suis assez grand pour boire un coup.	I'm old enough to drink.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voilà	"""Peux-tu me passer le sucre ?"" ""Le voilà."""	"""Will you pass me the sugar?"" ""Here you are."""	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+loin	Je pense que vous êtes allés trop loin.	I think you went too far.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+point	Je ne comprends pas ton point de vue.	I don't see your point.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+visage	Un vent glacial lui soufflait sur le visage.	A cold wind was blowing on his face.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bruit	Ne pouvez-vous pas faire moins de bruit ?	Can you keep the noise down?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lettre	Je suis en train de lire une lettre.	I am reading a letter.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fond	Je te remercie du fond du cœur.	I thank you from the bottom of my heart.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+force	Elle a dû compter sur sa propre force.	She had to rely upon her inner strength.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+effet	La tempête a eu un effet grave sur l'économie.	The storm had a serious effect on the economy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+arrêter	Tu ne peux pas nous faire nous arrêter.	You can't make us stop.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+perdre	Je ne veux pas perdre ce billet.	I do not want to lose this ticket.	authored_unreviewed	Original project teaching example
+commencer	Le film est sur le point de commencer.	The movie's about to start.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+paraître	Cette solution me paraît simple.	This solution seems simple to me.	authored_unreviewed	Original project teaching example
+aucun	Rien de tout ça n'a aucun sens pour moi.	None of this makes any sense to me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+marcher	Je marche toujours pour me rendre à l'école.	I always walk to school.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+milieu	Il se réveilla au milieu de la nuit.	He woke up in the middle of the night.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+presque	Il ne se met presque jamais en colère.	He almost never gets angry.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ailleurs	J'ai des choses à faire ailleurs.	I have things to attend to elsewhere.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lumière	Il y a encore de la lumière, dehors.	It is still light outside.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+seulement	Je souhaiterais seulement être en mesure de t'aider.	I only wish I were able to help.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+neuf	Il travaillait de neuf heures à cinq heures.	He worked from nine to five.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tel	« C'était un tel endroit amical. » « M'en parle pas ! »	"""This used to be such a friendly place."" ""Tell me about it."""	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lever	Levez la main si vous avez une question.	Raise your hand if you have a question.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gouvernement	Il mit en avant l'idée d'un gouvernement mondial.	He promoted the idea of world government.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+permettre	Permets-moi d'y aller, je te prie.	Please allow me to go.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pauvre	Je sais ce que ça fait d'être pauvre.	I know what it's like to be poor.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+asseoir	Vous pouvez vous asseoir si vous le désirez.	You can sit down if you want.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+plein	Le réservoir d'essence de la voiture est plein.	The fuel tank in the car is full.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+personne	Personne ne peut s'entendre avec une telle personne.	Nobody can get along with such a person.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vrai	Je ne pense pas que ce soit vrai.	I don't think it's true.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+peuple	Les dirigeants étaient en déphasage avec le peuple.	The leaders were out of touch with the people.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+parole	Fie-toi à ma parole en la matière !	Take my word for it.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+guerre	La France était en guerre avec la Russie.	France was at war with Russia.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+toute	Je suis resté à l'intérieur toute la journée.	I was in all day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pensée	Une pensée violente entraîne instantanément des mouvements du corps.	A violent thought instantly brings violent bodily movements.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+affaire	Je ne peux pas laisser tomber cette affaire.	I can't let the matter drop.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pierre	J'ai jeté une pierre en direction de l'oiseau.	I threw a stone at the bird.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+monter	À mesure qu'on monte en altitude, l'atmosphère s'appauvrit.	As we go up higher, the air becomes thinner.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bas	Ce bureau est un peu bas pour moi.	This desk is a little low for me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vent	Mon chapeau s'est envolé à cause du vent.	I had my hat blown off by the wind.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+front	Il porta la main à son front.	He put his hand to his forehead.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ombre	La fille avait peur de son ombre.	The girl was afraid of her own shadow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+part	Je n'ai pas pris part à la conversation.	I didn't take part in the conversation.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+maître	Un homme à tout faire n'est maître d'aucun art.	A jack of all trades is a master of none.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+besoin	J'ai besoin de me faire couper les cheveux.	I need a haircut.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+apercevoir	J’aperçois la gare au bout de la rue.	I can see the station at the end of the street.	authored_unreviewed	Original project teaching example
+recevoir	Il est mieux de donner que de recevoir.	It's better to give than to receive.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mieux	Tu ferais mieux de ne pas y aller.	You'd better not go.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+peine	Je pouvais à peine endurer la douleur.	I could hardly endure the pain.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tour	Avez-vous déjà vu la Tour de Tokyo ?	Have you ever seen Tokyo Tower?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+servir	Je serai très heureux de pouvoir te servir.	I'll be very happy if I can serve you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oh	Oh, j’ai oublié mon sac !	Oh, I forgot my bag!	authored_unreviewed	Original project teaching example
+autour	Y a-t-il des ours autour d'ici ?	Are there any bears around here?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+près	Ma maison se trouve près de la gare.	My house is near the station.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+finir	Je vais finir ce travail.	I am going to finish this work.	authored_unreviewed	Original project teaching example
+rire	Ne ris pas de moi s'il te plaît.	Please don't laugh at me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dessus	La santé est au-dessus de la richesse.	Health is above wealth.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+madame	Bonjour, madame, vous avez rendez-vous ?	Hello, madam, do you have an appointment?	authored_unreviewed	Original project teaching example
+sorte	Je suis parti dans une sorte de précipitation.	I left in kind of a hurry.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+figure	Je veux vous mettre mon poing à la figure.	I want to punch you in your face.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+eh	Eh, ce n'est pas ainsi que ça fonctionne !	Hey, it doesn't work that way.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+peur	Il n'y a pas de quoi avoir peur.	There is nothing to fear.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bout	Il se tenait au bout de la queue.	He stood at the end of the line.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lieu	Quand le vol a-t-il eu lieu ?	When did the robbery take place?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+silence	La parole est d'argent, le silence est d'or.	Speech is silver, silence is golden.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gros	Il lança un caillou sur le gros chien.	He threw a stone at the big dog.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chef	C'est un chef de file de sa communauté.	He's a community leader.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+six	Elle est six ans plus âgée que moi.	She's six years older than me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bois	Le papier est confectionné à partir de bois.	Paper is made from wood.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+crier	Ne crie pas comme ça. Je t'entends parfaitement.	Don't shout like that. I can hear you perfectly.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+feu	Il mit le feu à sa propre maison.	He set his house on fire.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tourner	Je n'ai personne d'autre vers qui me tourner.	I have no one else to turn to.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+doux	Il murmura de doux mots à son oreille.	He whispered sweet nothings into her ear.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+longtemps	Je n'ai pas mangé de barbecue depuis longtemps.	I haven't had a barbecue for a long time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fort	Vous n'avez pas besoin de parler si fort. Je peux vous entendre très clairement.	You don't have to speak so loudly. I can hear you very clearly.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+garder	Il a fallu que je garde mon secret.	I had to keep my secret.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+partie	Tom refusa d'entrer dans la partie.	Tom refused to take part in the game.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+face	Tenez-vous face à face, s'il vous plaît.	Please stand face to face.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mouvement	Il a joué un rôle clé dans le mouvement.	He played a key role in the movement.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fin	Est-ce que la fin justifie les moyens ?	Does the end justify the means?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+reconnaître	Je suis désolé, je ne vous reconnais pas.	I'm sorry, I don't recognize you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quitter	Je suis sur le point de quitter ici.	I am about to leave here.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+route	Je vis juste au haut de la route.	I live just up the road.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dès	Je vous appelle dès mon arrivée.	I will call you as soon as I arrive.	authored_unreviewed	Original project teaching example
+manger	Nous allons manger ensemble.	We are going to eat together.	authored_unreviewed	Original project teaching example
+arbre	Cet arbre est plus vieux que cette voiture.	This tree is older than that car.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+courir	Je vais courir dans le parc.	I am going to run in the park.	authored_unreviewed	Original project teaching example
+cas	J'en ai apporté un, juste au cas où.	I brought one just in case.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+huit	J'ai pris mon petit-déjeuner à huit heures.	I ate breakfast at eight.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lorsque	Fais-le lorsque tu en auras le temps.	Do it when you have time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mur	Il y a une carte sur le mur.	There is a map on the wall.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ordre	Le professeur a appelé les élèves par ordre alphabétique.	The teacher called the students in alphabetical order.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+continuer	Je ne peux pas continuer à faire ça.	I can't continue doing this.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+est	Shanghai est surnommée le Paris de l'Orient.	Shanghai is referred to as the Paris of the East.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bonheur	La santé est un facteur essentiel du bonheur.	Health is an important factor of happiness.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oublier	Oublie que j'ai dit quoi que ce soit.	Forget I said anything.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+descendre	Je ne savais pas où descendre du car.	I didn't know where to get off the bus.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+haut	Je ne peux pas atteindre l'étagère du haut.	I can't reach the top shelf.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+intérêt	Pourquoi est-ce que ça a un intérêt ?	Why is that of interest?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cacher	Vous ne pouvez pas vous cacher pour toujours.	You can't hide forever.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+l’un	L’un de mes amis habite à Montréal.	One of my friends lives in Montreal.	authored_unreviewed	Original project teaching example
+chacun	Je leur ai acheté un cadeau à chacun.	I bought them each a present.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+profond	Aucune parole ne peut soulager son profond chagrin.	No words can relieve her deep sorrow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+argent	Ne jette pas ton argent par les fenêtres.	Don't waste your money.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+poser	Ne pose pas de livres sur la table.	Don't put books on the table.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+autant	Empoignez-en autant que vous en avez besoin.	Grab as much as you need.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+travers	J'ai entendu des voix à travers le mur.	I heard voices through the wall.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+instant	Reste en ligne un instant, je te prie.	Please hold the line a moment.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+façon	Je ne le vois pas de cette façon.	I don't see it that way.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+d’abord	D’abord nous allons manger, puis nous partirons.	First we'll eat, and then we'll go.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+œil	Quelque chose est arrivé à mon œil droit.	Something has happened to my right eye.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tirer	Ne m'oblige pas à tirer sur la gâchette !	Don't make me pull the trigger.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+forme	Je fais de l'exercice pour rester en forme.	I work out to stay in shape.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+présenter	Je te prie de me présenter à elle.	I would like you to introduce me to her.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ajouter	Ajoute un peu de sucre, s'il te plaît.	Add a bit of sugar, please.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+agir	Je n'ai jamais vu mon chat agir comme ça.	I've never seen my cat act like that.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+retrouver	Le couple se sépara, pour ne plus jamais se retrouver.	The couple parted, never to meet again.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chemin	Je suis sur le chemin de la maison.	I'm on the way home.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cheveu	Il y a un cheveu dans ma soupe.	There's a hair in my soup.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+offrir	C'est tout ce que je peux vous offrir.	That's all I can offer you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+surtout	Nous avons apprécié la nourriture, surtout le poisson.	We liked the food, especially the fish.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+certain	Je ne suis pas certain de cela.	I am not certain about that.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+plaisir	C'est un véritable plaisir que de vous rencontrer.	It's a real pleasure to meet you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+suite	Il est devenu sourd à la suite d'un accident.	He went deaf as a result of an accident.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+apprendre	Je vais apprendre le français.	I am going to learn French.	authored_unreviewed	Original project teaching example
+malgré	Malgré l'adversité, l'architecte a atteint une renommée mondiale.	Despite adversity, the architect achieved worldwide fame.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tuer	Le gel peut tuer cette plante.	Frost can kill this plant.	authored_unreviewed	Original project teaching example
+sang	Je ne supporte pas la vue du sang.	I can't stand the sight of blood.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+retourner	Je n'ai guère de maison à laquelle retourner.	I have no home to return to.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rencontrer	Elle a été dans l'incapacité de le rencontrer.	She wasn't able to meet him.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sentiment	J'ai eu le sentiment que vous diriez cela.	I had a feeling you'd say that.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fleur	Je n'ai jamais vu une fleur aussi belle.	I've never seen such a beautiful flower.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+service	J'ai besoin que tu me rendes un service.	I need you to do me a favor.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+envoyer	Je vais envoyer un message.	I am going to send a message.	authored_unreviewed	Original project teaching example
+plusieurs	Il essaya plusieurs fois mais ne réussit pas.	He tried several times, but failed.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vite	Ne parlez pas si vite, s'il vous plaît.	Please don't speak so fast.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+paix	Il a dédié sa vie à la paix.	He dedicated his life to peace.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+moyen	Il n'y a aucun moyen de le dire.	There's no way to tell.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dormir	Je vais dormir tôt ce soir.	I am going to sleep early tonight.	authored_unreviewed	Original project teaching example
+pousser	Pourrais-tu pousser la porte pour l'ouvrir ?	Can you push the door open?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lit	Est-ce que je peux aller au lit ?	May I go to bed?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+humain	Le crâne humain se compose de vingt-trois os.	The human skull consists of 23 bones.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rappeler	Rappelle-lui de rentrer tôt à la maison.	Remind him to come home early.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lire	Je vais lire ce livre.	I am going to read this book.	authored_unreviewed	Original project teaching example
+général	Il avait été promu au rang de général.	He was advanced to the rank of general.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nature	Il veut vivre plus près de la nature.	He wants to live closer to nature.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+or	Je lui ai offert une montre en or.	I presented him with a gold watch.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+français	Le français s'est développé à partir du latin.	French developed from Latin.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+joie	Ils ont finalement ressenti la joie de vaincre.	At last, they experienced the joy of victory.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sept	Elle est arrivée chez elle à sept heures.	She got home at seven.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tard	Il est rentré à la maison très tard.	He came home very late.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+président	Il a démissionné de son poste de président.	He resigned as president.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pourtant	Le soleil brillait, pourtant il faisait froid.	The sun was shining, yet it was cold.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bouche	Tu ne dois pas parler la bouche pleine.	Don't talk with your mouth full.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+changer	Je vais changer de train.	I am going to change trains.	authored_unreviewed	Original project teaching example
+essayer	Laissez-moi essayer à nouveau, s'il vous plaît !	Please let me try it again.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+froid	Il fait plutôt froid pour un mois d'avril.	It's rather cold for April.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+compter	Est-ce que je peux compter sur toi ?	Can I rely on you?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+occuper	Ce travail va m’occuper toute la matinée.	This work will keep me busy all morning.	authored_unreviewed	Original project teaching example
+sens	Tu as vraiment un bon sens de l'orientation.	You have a really good sense of direction.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cri	Un cri s'éleva de la foule.	A cry arose from the crowd.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+espèce	C'est une espèce en voie de disparition.	It is an endangered species.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+expliquer	Pouvez-vous expliquer ce que PKO veut dire ?	Can you explain what PKO stands for?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cheval	Il a parié deux livres sur le cheval.	He bet two pounds on the horse.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+loi	Tous les hommes sont égaux devant la loi.	All men are equal under the law.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sombre	Il fait trop sombre pour que je lise.	It is too dark for me to read.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ci	Il vient toujours à cette heure-ci.	He always comes here at this time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sûr	Es-tu sûr que c'est sûr ?	Are you sure that's safe?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voici	Nous voici donc de nouveau au même point.	Here we are again.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ancien	C'était un ancien professeur d'université et un chercheur.	He was a former university professor and researcher.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tandis que	Je prépare le repas tandis que tu mets la table.	I am preparing the meal while you set the table.	authored_unreviewed	Original project teaching example
+frapper	Les typhons frappent le Japon tous les ans.	Typhoons hit Japan every year.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ministre	Le ministre a approuvé les plans de construction.	The minister approved the building plans.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+puisque	Puisque je suis ici, laissez-moi vous aider.	Since I'm here, let me help you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+selon	Selon notre enseignant, elle est entrée à l'hôpital.	According to our teacher, she entered the hospital.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+propre	Je fais les choses à mon propre rythme.	I do things at my own pace.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+obtenir	Je ferais n'importe quoi pour obtenir un emploi.	I would do anything to get a job.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rentrer	Veux-tu que je rentre à la maison ?	Do you want me to go home?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mal	J'ai l'impression que ça va mal se terminer.	I feel like this is going to end badly.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pleurer	Je ne peux supporter de la voir pleurer.	I can't bear to see her cry.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+répéter	Pouvez-vous répéter ce que vous avez dit?	Can you repeat what you said?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+société	Je suis représentant de commerce pour notre société.	I'm a salesman for our company.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oreille	Il a une bonne oreille pour la musique.	He has a good ear for music.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+payer	Je vais payer l’addition.	I am going to pay the bill.	authored_unreviewed	Original project teaching example
+apporter	Apporte-moi, s'il te plait, le journal d'aujourd'hui.	Bring me today's paper, please.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+derrière	Tous les examens sont à présent derrière nous.	All the exams are now behind us.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+salut	Salut, tu vas bien ?	Hi, how are you?	authored_unreviewed	Original project teaching example
+compte	J'ouvris un compte dans une banque du coin.	I opened an account at a nearby bank.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+champ	L'agriculteur labourait son champ toute la journée.	The farmer plowed his field all day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vraiment	Je me suis vraiment mis à avoir faim.	I got really hungry.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+immense	Je suis entré en possession d'une immense fortune.	I came into a huge fortune.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+exister	Existe-t-il des pastèques sans pépins ?	Do seedless watermelons exist?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+action	Son action rapide a évité une épidémie.	His prompt action prevented an epidemic.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+boire	Je vais boire de l’eau.	I am going to drink some water.	authored_unreviewed	Original project teaching example
+public	Je me suis habitué à parler en public.	I've got accustomed to speaking in public.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+garçon	Je fis porter mon sac par le garçon.	I had the boy carry my bag.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pareil	J'insiste pour que tout le monde fasse pareil.	I urge everyone to do the same.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sourire	Elle m'adressa un sourire indiquant qu'elle me reconnaissait.	She gave me a smile of recognition.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+couleur	Une pellicule de film couleur, s'il vous plait.	One roll of color film, please.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+coucher	Nous allons coucher les enfants à huit heures.	We are going to put the children to bed at eight.	authored_unreviewed	Original project teaching example
+papier	Le papier est confectionné à partir de bois.	Paper is made from wood.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+d’autres	Avez-vous d’autres questions ?	Do you have any other questions?	authored_unreviewed	Original project teaching example
+causer	Bronzer peut causer le cancer de la peau.	Tanning can cause skin cancer.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pièce	Il ne faut pas fumer dans cette pièce.	Don't smoke in this room.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+montagne	Nous avons été à la montagne pour skier.	We went to the mountain to ski.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sol	Il y a des trous dans le sol.	There are holes in the floor.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+œuvre	Son jardin est une œuvre d'art.	Her garden is a work of art.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+partout	Partout où il s'arrêtait, les gens l'accueillaient chaleureusement.	Everywhere he stopped, the people welcomed him warmly.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+trente	Elle ne peut avoir plus de trente ans.	She can't be over thirty.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cours	Je suis responsable du cours de troisième année.	I am in charge of the third-year class.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+raconter	Je n'avais pas prévu de vous le raconter.	I hadn't planned to tell you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+serrer	Les petites entreprises devront se serrer la ceinture pour survivre.	Small businesses will have to tighten their belts to survive.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+songer	Nous ferions mieux de songer à quelque chose.	We'd better think of something.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+désir	Je n'ai aucun désir de vous faire du mal.	I have no desire to hurt you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+manquer	Il est certain que mes amis me manquent.	I sure miss my friends.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cour	Il laissa le chien en liberté dans la cour.	He let the dog loose in the yard.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nommer	Veuillez m'excuser. Comment se nomme cet endroit ?	Pardon me, what's the name of this place?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bord	Il se tenait au bord de la falaise.	He stood on the edge of the cliff.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+conduire	Je peux conduire ce soir.	I can drive tonight.	authored_unreviewed	Original project teaching example
+salle	Le plafond est très bas dans cette salle.	The ceiling is very low in this room.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+saisir	Je ne parviens pas à en saisir le sens.	I can't understand the meaning.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+entier	Le pays en entier était couvert de neige.	The whole country was covered with snow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+demeurer	Le problème demeure malgré nos efforts.	The problem remains despite our efforts.	authored_unreviewed	Original project teaching example
+simple	Je n’ai jamais dit que ça serait simple.	I never said it would be simple.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étude	C'est une étude sociologique sur l'avortement.	This is a sociological study on abortion.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+remettre	Je pense qu'il nous faut remettre la réunion.	I think we need to postpone the meeting.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+geste	Je voulais juste faire un geste.	I just wanted to make a gesture.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+disparaître	Mon argent semble disparaître à la fin du mois.	My money seems to disappear by the end of the month.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+battre	Peut-être que tu peux me battre.	Perhaps you can beat me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+toucher	Je suis en train d'ajouter la dernière touche.	I'm adding the last touch.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+situation	Il semblait que la situation était sans espoir.	The situation seemed hopeless.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oiseau	Elle a écrit un livre sur cet oiseau.	She wrote a book about the bird.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nécessaire	Je n'ai fait que ce qui était nécessaire.	I only did what was necessary.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+siècle	Mes grands-parents sont nés au siècle dernier.	My grandparents were born in the last century.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+apparaître	Quelques étoiles commencèrent à apparaître dans le ciel nocturne.	Some stars began to appear in the night sky.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+souffrir	Il souffre depuis hier.	He has been suffering since yesterday.	authored_unreviewed	Original project teaching example
+million	Leurs pertes ont atteint un million de yens.	Their losses reached one million yen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+groupe	Il ne fait pas partie de notre groupe.	He's not in our group.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+centre	Tu as touché au centre de la cible.	You hit the center of the target.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+maman	Maman est en train de faire un gâteau.	Mom is making a cake.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fermer	Je vais fermer la porte.	I am going to close the door.	authored_unreviewed	Original project teaching example
+accepter	Nous acceptons toutes les principales cartes de crédit.	We accept all major credit cards.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+garde	Il pénétra dans la banque, déguisé en garde.	He entered the bank disguised as a guard.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tendre	Cette viande est très bonne et tendre.	This beef is very nice and tender.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+naître	Elle est née en juin.	She was born in June.	authored_unreviewed	Original project teaching example
+sauver	Nous ne pouvons pas sauver tout le monde.	We can't save everyone.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+parmi	Ce chanteur est-il populaire parmi tes amis ?	Is that singer popular among your friends?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avancer	Pouvez-vous vous avancer pour qu'on puisse fermer la porte ?	Could you move forward so we can close the door?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chien	J'ai filé un coup de pied au chien.	I kicked the dog.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+peau	La beauté n'a que l'épaisseur de la peau.	Beauty is only skin deep.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+reste	Où se trouve le reste de la classe ?	Where's the rest of our class?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+traverser	J'ai vu une vieille dame traverser la rue.	I saw an old woman cross the street.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nombre	Quatre est un nombre porte malheur au Japon.	Four is an unlucky number in Japanese.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+debout	Il était debout au coin de la rue.	He was standing at the street corner.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+social	On a un besoin urgent de changement social.	There is an urgent need for social change.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vue	Nous ne pouvons pas perdre ça de vue.	We can't lose sight of that.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+couvrir	Couvrez les graines d'un peu de terre.	Cover the seeds with a little earth.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+âge	Nous sommes à peu près du même âge.	We're about the same age.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gagner	Notre équipe peut gagner.	Our team can win.	authored_unreviewed	Original project teaching example
+système	Si toute autre mesure échoue, redémarrez le système.	If all else fails, reboot the system.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+former	La démocratie est une forme de gouvernement.	Democracy is one form of government.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+plaire	Ne sois pas en retard, s'il te plaît.	Please don't be late.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+effort	Je fis un effort pour terminer mon travail.	I made an effort to finish my work.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+embrasser	Je ne peux pas vous embrasser maintenant.	I can't kiss you now.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rêve	J'ai fait un mauvais rêve la nuit dernière.	I had a bad dream last night.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oser	Comment oses-tu me parler sur ce ton ?	How dare you speak to me like that?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+afin de	Je note les mots afin de les retenir.	I write down the words in order to remember them.	authored_unreviewed	Original project teaching example
+passion	Elle a une passion pour les gâteaux.	She has a passion for cake.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+auquel	Je suis ébahi par le rythme auquel les industries se développent.	I'm amazed by the rate at which industries grow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+empêcher	Nous devons faire quelque chose pour empêcher ceci de se reproduire.	We have to do something to stop this from happening again.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rapport	J'ai lu le rapport que vous avez écrit.	I read the report you wrote.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+refuser	Je ne vois pas comment je peux refuser.	I don't see how I can refuse.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+décider	Je n'arrive pas à me décider quoi commander.	I can't decide what to order.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+produire	Ces champs produisent de belles récoltes.	These fields produce fine crops.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+soldat	Mon grand-père était soldat pendant la guerre.	My grandfather was a soldier during the war.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lèvre	Une moustache pousse sur la lèvre supérieure.	A mustache grows on the upper lip.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+signe	La pluie ne montre aucun signe de répit.	The rain shows no sign of stopping.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vérité	Il ne peut faire face à la vérité.	He can't handle the truth.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+charger	N'oubliez pas de charger votre portable !	Don't forget to charge your cell phone.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mariage	Quand le mariage a-t-il eu lieu ?	When did the wedding take place?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mêler	Il ne faut pas mêler ces deux questions.	We should not mix up these two issues.	authored_unreviewed	Original project teaching example
+espérer	Tout ce que nous pouvons faire, c'est espérer.	All we can do is hope.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cesser	Comment puis-je faire en sorte qu'il cesse ?	How can I make him stop?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ressembler	Il ne ressemble à aucun de ses parents.	He doesn't resemble either of his parents.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dos	Je veux que vous descendiez de mon dos.	I want you to get off my back.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+marche	Je marche toujours pour me rendre à l'école.	I always walk to school.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+plutôt	Je préférerais rester plutôt que de m'en aller.	I'd rather stay than go.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+conseil	Il a ignoré le conseil de son père.	He ignored his father's advice.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+téléphone	Je suis en train de parler au téléphone.	I'm talking on the phone.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+coin	Je suis garé au coin de la rue.	I'm parked around the corner.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jardin	Il a trouvé une balle dans le jardin.	He found a ball in the garden.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+joli	Il m'a acheté un joli appareil photo.	He bought me a nice camera.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+soit	Soit il est saoul, soit il est fou.	He is either drunk or mad.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+doigt	Il s'est coupé le doigt avec le couteau.	He cut his finger with the knife.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+objet	L'étrange objet dans le ciel pouvait être vu à l'œil nu.	The strange object in the sky could be seen with the unaided eye.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fer	Le fer est employé dans la construction navale.	Iron is used in shipbuilding.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lendemain	Les deux généraux se rencontrèrent de nouveau le lendemain.	The two generals met again the next day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lentement	Parlez un peu plus lentement, s'il vous plaît.	Please speak more slowly.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+approcher	Ne vous approchez pas du chien.	Don't approach the dog.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+prier	Elle avait l'habitude de prier avant de se coucher.	She used to pray before going to bed.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+papa	Pourquoi ne réponds-tu pas à ton papa ?	Why don't you answer your dad?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+différent	Il est différent de ce qu'il était avant.	He's different from before.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+valeur	Nous accordons de la valeur à nos clients.	We value our customers.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jeu	Je ne vais pas jouer à ce jeu.	I'm not going to play this game.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+échapper	Comment êtes-vous parvenu à vous échapper ?	How did you manage to escape?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+glisser	Fais attention de ne pas glisser !	Be careful not to slip.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+secret	Il a fallu que je garde mon secret.	I had to keep my secret.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ordinateur	Cet ordinateur est le tien, n'est-ce pas ?	This computer is yours, isn't it?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+briller	Le soleil ne brille pas la nuit.	The sun doesn't shine at night.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+docteur	Je n'ai pas vu de docteur l'année dernière.	I didn't see a doctor last year.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+brûler	Je ne brûle pas d'encens à la maison, habituellement.	I don't usually burn incense at home.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+terrible	J'ai fait un rêve terrible la nuit dernière.	I had a terrible dream last night.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+placer	Je ne me sentis pas à ma place.	I felt out of place.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jambe	Je me suis cassé la jambe en skiant.	I broke my leg skiing.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+juger	Ne juge pas un livre sur sa couverture.	Don't judge a book by its cover.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+suffire	Ça pourrait ne pas suffire.	It might not be enough.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+endroit	Je ne disposais pas d'autre endroit où aller.	I had no place else to go.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+atteindre	Je ne peux pas atteindre l'étagère du haut.	I can't reach the top shelf.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nuage	Ce nuage ressemble pour moi à un lapin.	That cloud looks like a rabbit to me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+présence	Il ne semblait pas conscient de ma présence.	He seemed unconscious of my presence.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fou	Soit il est saoul, soit il est fou.	He is either drunk or mad.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+épaule	J'ai senti un contact léger sur mon épaule.	I felt a light touch on my shoulder.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+léger	J'ai un léger mal de tête à présent.	I have a slight headache now.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+feuille	Apporte-moi une feuille de papier, s'il te plaît.	Bring me a sheet of paper, please.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+liberté	Le plus grand des bonheurs c'est la liberté.	The greatest happiness lies in freedom.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+journée	Je suis resté à l'intérieur toute la journée.	I was in all day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+libre	Je ne suis pas libre tout de suite.	I'm not available right now.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+annoncer	La gare annonce un retard de dix minutes.	The station announces a delay of ten minutes.	authored_unreviewed	Original project teaching example
+résultat	Je ne m'étais pas attendu à ce résultat.	I didn't expect that result.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+élever	Il a appris à élever du bétail.	He learned how to raise cattle.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+acheter	Je vais acheter du pain.	I am going to buy bread.	authored_unreviewed	Original project teaching example
+mener	Ce sont les étapes qui mènent droit à l'échec.	These are the steps that lead straight to failure.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+préparer	Prépare-toi pour le voyage, je te prie.	Please prepare for the trip.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+hôtel	Il a séjourné dans un hôtel bon marché.	He stayed at a cheap hotel.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+forêt	Je marche dans la forêt tous les jours.	I walk in the forest every day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+assurer	Je peux vous assurer que vous avez tort.	I can assure you that you are wrong.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pur	L'air est pur dans le coin.	The air is pure around here.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+qualité	Si vous voulez de la qualité, payez-la !	If you want quality, pay for it.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+internet	Quelle sorte d'information trouve-t-on sur Internet ?	What sort of information do you get on the Internet?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+également	J'emploie également ce bureau pour recevoir des invités.	I also use this study for receiving guests.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+deviner	Ne me le dites pas ! Laissez-moi deviner !	Don't tell me. Let me guess.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+considérer	Je ne considère pas que ça soit important.	I don't consider this to be important.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+toilettes	Qui a laissé ce bazar dans les toilettes ?	Who left this mess in the toilet?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+art	Il s'agit davantage d'un art que d'une science.	It's an art more than a science.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+moindre	Je n'en ai pas la moindre idée.	I don't have the slightest clue.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quarante	Il a un peu plus de quarante ans.	He is a little over forty.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cinquante	Il doit avoir passé les cinquante ans.	He must be over fifty.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+foule	Bientôt une foule se rassembla autour de lui.	A crowd soon gathered around him.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+appartenir	Est-ce que ce livre vous appartient ?	Does this book belong to you?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+aussitôt	Une proposition pareille ne serait que rejetée aussitôt.	Such a proposal would only be turned down immediately.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ligne	Reste en ligne un instant, je te prie.	Please hold the line a moment.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+représenter	Un père et son fils représentent deux générations.	A father and son represent two generations.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tromper	Ne me trompe pas.	Don't deceive me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+intérieur	L’espace intérieur est lumineux.	The interior space is bright.	authored_unreviewed	Original project teaching example
+vendre	Tout le monde tentait de vendre ses titres.	Everyone tried to sell their stocks.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+beauté	La beauté n'a que l'épaisseur de la peau.	Beauty is only skin deep.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+riche	Je ne suis pas aussi riche que toi.	I'm not as rich as you are.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+craindre	Il est trop stupide pour craindre le danger.	He is too dumb to fear danger.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étrange	Le comportement de ce type était très étrange.	The man's behavior was very odd.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+emporter	Je vais emporter une bouteille d’eau.	I am going to take a bottle of water with me.	authored_unreviewed	Original project teaching example
+soin	Nous prenons tous soin les uns des autres.	We all care for one another.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+naturel	Il a un penchant naturel pour la musique.	He has a natural bent for music.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quinze	Levez-vous quinze minutes plus tôt le matin.	Get up fifteen minutes earlier in the morning.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+classe	Il est dans la même classe que moi.	He's in my class.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+expression	De par son expression, il est de mauvaise humeur.	Judging from his expression, he is in a bad mood.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+auprès	Il est populaire auprès de tout le monde.	He is popular with everybody.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+présent	C'est moi qui étais présent à l'école, hier.	I was present at school yesterday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+caractère	Le visage d'une personne dit beaucoup de son caractère.	A person's face tells a great deal about his character.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ensemble	Pourquoi ne nous y rendons-nous pas ensemble ?	Why don't we go together?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+attention	Puis-je avoir votre attention, s'il vous plaît ?	Can I get your attention, please?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gris	J'ai de plus en plus de cheveux gris.	I'm getting more and more gray hair.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+exprimer	Je ne peux exprimer ce que je ressens.	I can't express my feelings.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rouler	Nous devons payer le péage pour rouler sur cette route.	We must pay a toll to drive on this road.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+faible	La Physique est ma matière la plus faible.	Physics is my weak subject.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+posséder	Je ne possède pas de poste de télévision.	I don't own a television.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+scène	Certaines personnes comparent la vie à une scène.	Some people compare life to a stage.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+réveiller	Reste calme, sinon le bébé va se réveiller.	Be quiet, or the baby will wake up.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+aider	En quoi est-ce que cela nous aide ?	How does it help us?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+découvrir	Plus on étudie, plus on découvre sa propre ignorance.	The more you study, the more you discover your ignorance.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+odeur	Les livres récemment imprimés ont une odeur agréable.	Newly printed books smell good.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+choisir	Nous devons choisir une date.	We need to choose a date.	authored_unreviewed	Original project teaching example
+musique	Je suis en train d'écouter de la musique.	I'm listening to music.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oncle	Mon oncle m'a donné une paire de chaussures.	My uncle gave me a pair of shoes.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+prononcer	Connaissez-vous la manière de prononcer ce mot ?	Do you know how to pronounce this word?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+village	Je vis dans un petit village de pêcheurs.	I live in a small fishing village.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+taire	Notre professeur a exigé de nous taire.	Our teacher demanded that we keep quiet.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+envie	Je n'ai aucune envie d'essayer.	I have no desire to try.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+midi	La famille a pris son déjeuner à midi.	The family had its dinner at noon.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+herbe	L’herbe du jardin est encore humide.	The grass in the garden is still damp.	authored_unreviewed	Original project teaching example
+pluie	Je viens de sentir une goutte de pluie.	I just felt a drop of rain.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rêver	Une fille a le droit de rêver, non ?	A girl can dream, right?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+appuyer	Il faut que tu appuies sur le bouton.	You need to press the button.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étendre	Elle veut étendre la zone non-fumeurs.	She wants to extend the no-smoking area.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lutte	Je pense qu'il est temps pour moi de me joindre à la lutte.	I think it's time for me to join the fight.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+trembler	Lorsque le lion rugit, les zèbres tremblent.	When the lion roars, the zebras tremble.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+grâce	Grâce à toi, je suis arrivé à l'heure.	Thanks to you, I arrived on time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+espace	Il reste assez d’espace dans la voiture.	There is enough space left in the car.	authored_unreviewed	Original project teaching example
+habitude	Tenir un journal intime est une bonne habitude.	Keeping a diary is a good habit.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+défendre	Les gens ont le droit de se défendre.	People have the right to defend themselves.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+existence	Il ignorait l’existence de ce musée.	He did not know this museum existed.	authored_unreviewed	Original project teaching example
+mémoire	Cet événement est encore frais dans notre mémoire.	The event is still fresh in our memory.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+créer	Nos villes créent de sérieux problèmes de pollution.	Our cities create serious pollution problems.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+grave	Ton entaille au bras a l'air assez grave.	That cut on your arm looks pretty serious.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+maintenir	J'ai tout essayé pour le maintenir en vie.	I tried everything to keep him alive.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+verre	Le verre est fait à partir de sable.	Glass is made from sand.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+campagne	Il n'y a pas de loisirs à la campagne.	There's no entertainment in the countryside.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quelqu’un	Quelqu’un a laissé un message pour vous.	Someone has left a message for you.	authored_unreviewed	Original project teaching example
+juge	Ne juge pas un livre sur sa couverture.	Don't judge a book by its cover.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+genou	Il s'est blessé le genou lorsqu'il est tombé.	He hurt his knee when he fell.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+impossible	Il est impossible pour toi de faire ça.	It is impossible for you to do so.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fête	Nous avons fait une fête pour célébrer son 70e anniversaire.	We gave a party in celebration of his 70th birthday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+indiquer	Pouvez-vous m’indiquer le chemin de la gare ?	Can you show me the way to the station?	authored_unreviewed	Original project teaching example
+prêt	Je ne suis pas prêt à me battre.	I'm not ready to fight.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+promettre	Je promets que je ne le dirai pas.	I promise I won't tell.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+relever	Elle va relever les points importants du texte.	She is going to note the important points in the text.	authored_unreviewed	Original project teaching example
+abandonner	Penses-tu que nous devrions abandonner le navire ?	Do you think we should abandon ship?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ignorer	J'ai appris à ne pas ignorer ma douleur.	I learned not to ignore my pain.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+large	Croyez-vous que le chemin est assez large pour les voitures ?	Do you think the road is wide enough for cars?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+colère	Je ne souhaite pas te mettre en colère.	I don't wish to anger you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étoile	Est-ce que tu vois une étoile ?	Do you see a star?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+conscience	Tu as quelque chose sur la conscience ?	Do you have a guilty conscience?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+accompagner	Puis-je vous accompagner dans votre promenade ?	May I accompany you on your walk?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+immobile	Un chien sauta sur la chaise et resta immobile pendant cinq minutes.	A dog jumped onto the chair and lay motionless for five minutes.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+adresser	Fais-moi savoir ton adresse s'il te plaît.	Let me know your address.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+observer	Observe ton chat et tu le connaîtras.	Just observe your cat and you will get to know him.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+juste	Tu es venu juste au bon moment.	You came at just the right time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nourriture	Je ne mange que de la nourriture câchère.	I only eat kosher food.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+séparer	Nous devons séparer la politique de la religion.	We must separate politics from religion.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+marier	Il promit de se marier avec elle.	He promised to marry her.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+prévoir	Nul ne peut prévoir ce qui va arriver.	Nobody can foresee what will happen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vivant	Est-ce que ce poisson est encore vivant ?	Is this fish still alive?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+hiver	Nous avons eu un hiver doux l'an dernier.	We had a mild winter last year.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+retour	As-tu fait l'acquisition d'un billet de retour ?	Did you buy a return ticket?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+genre	Je ne suis pas ce genre de gars.	I'm not that type of guy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vif	Elles peignirent leur maison d'un jaune vif.	They painted their house bright yellow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+amener	Amène ta sœur avec toi la prochaine fois.	Bring your sister next time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+obliger	La pluie nous oblige à rester à la maison.	The rain forces us to stay at home.	authored_unreviewed	Original project teaching example
+acte	Le massacre des prisonniers était un acte barbare.	The slaughter of the prisoners was a barbarous act.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+image	Il est en train de dessiner une image.	He is drawing a picture.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+éclairer	Peux-tu éclairer le chemin ?	Can you light the way?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+poursuivre	Si j'étais en bonne santé, je pourrais poursuivre mes études.	If I were in good health, I could pursue my studies.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+danger	Il est trop stupide pour craindre le danger.	He is too dumb to fear danger.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+livrer	Pouvez-vous le livrer chez moi ?	Can you deliver it to my house?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rôle	Il a joué un rôle clé dans le mouvement.	He played a key role in the movement.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+escalier	L’ascenseur est en panne ; prenons l’escalier.	The lift is out of order; let us take the stairs.	authored_unreviewed	Original project teaching example
+goût	Je n'aime pas votre goût pour les couleurs.	I don't like your taste in color.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bête	Je n'ai pas voulu avoir l'air bête.	I didn't want to look foolish.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ceci	Je pense que tu as besoin de ceci.	I think you need this.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+recherche	Je travaille dans la recherche contre le SIDA.	I am engaged in AIDS research.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+membre	Son mari est un membre du clan Oda.	Her husband is a member of the Oda family.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+phrase	Il y a une faute dans cette phrase.	This sentence contains an error.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+contenir	Je pouvais à peine contenir mon excitation.	I could barely contain my excitement.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fuir	Je voulais fuir avec Tom.	I wanted to run away with Tom.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+couler	L’eau coule doucement dans le ruisseau.	The water flows gently in the stream.	authored_unreviewed	Original project teaching example
+terme	"Le terme ""nègre"" est offensant."	"The word ""nigger"" is an offensive term."	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+police	Je ne peux pas aller à la police.	I can't go to the police.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fruit	On reconnaît un arbre à son fruit.	A tree is known by its fruit.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+proposer	Comment proposes-tu que nous résolvions ce problème ?	How do you propose we solve this problem?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tranquille	Pourquoi tout le monde est-il si tranquille ?	Why's everybody so quiet?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+unique	Je ne sais jouer que cette unique chanson.	I only know how to play that one song.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+éprouver	Éprouvez-vous le besoin de vous reposer ?	Do you feel like resting?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+retenir	Il n'a pas pu retenir ses larmes.	He couldn't hold back his tears.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+type	C'est un type sur qui on peut compter.	He's a stand-up guy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vin	Le vin est fait à partir du raisin.	Wine is made from grapes.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+supérieur	Tu ne devrais pas te sentir supérieur aux autres.	You should not feel superior to other people.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+attacher	Tu attaches trop d'importance à ce qu'il dit.	You attach too much importance to what he says.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voler	Est-ce que tous les oiseaux peuvent voler ?	Can all birds fly?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sec	Le poulet est un peu trop sec.	The chicken is a bit too dry.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+entraîner	Nous nous entraînons ensemble.	We train together.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+justice	La justice prévaudra, ici ou dans l'au-delà.	Justice will be served, whether here or in the hereafter.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+époque	Elle était superstitieuse, à l'instar des gens de cette époque.	She was superstitious, as the people of that period usually were.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+passage	Nous avons trouvé un passage secret dans l'immeuble.	We found a secret passage into the building.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+somme	Cinq mille dollars est une grande somme d'argent.	Five thousand dollars is a large sum of money.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+science	Il s'agit davantage d'un art que d'une science.	It's an art more than a science.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+surprendre	Je n'ai pas eu l'intention de vous surprendre.	I didn't mean to surprise you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+côte	Sa maison de campagne est sur la côte.	His cottage is on the coast.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+doucement	La soutane du prêtre gonflait doucement au vent.	The priest's cassock billowed gently in the wind.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gauche	La tour s'inclinait un peu vers la gauche.	The tower leaned slightly to the left.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+faute	C'est de ma faute, pas de la vôtre.	It's my fault, not yours.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rayon	Le lait se trouve dans ce rayon.	The milk is in this aisle.	authored_unreviewed	Original project teaching example
+briser	Il n'y a que l'amour pour briser le cœur.	Only love can break your heart.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sujet	Il est sujet à des crises de colère.	He is subject to fits of anger.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+imaginer	Je peux imaginer ce que tu as ressenti.	I can imagine how you felt.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+diriger	Elle dirige une petite équipe.	She manages a small team.	authored_unreviewed	Original project teaching example
+douze	J'étais amoureux de toi, quand j'avais douze ans.	I had a crush on you when I was twelve.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+l’une	L’une de ces réponses est correcte.	One of these answers is correct.	authored_unreviewed	Original project teaching example
+parvenir	Je ne parviens pas à atteindre les choses qui se trouvent sur l'étagère supérieure.	I can't reach things on the top shelf.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ouvert	Le musée est ouvert du lundi au vendredi.	The museum is open from Monday to Friday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pénétrer	Vous ne devez pas pénétrer dans la pièce.	You must not enter the room.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+meilleur	Il est à la recherche d'un meilleur boulot.	He is after a better job.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+remarquer	Elle a été la première à le remarquer.	She was the first one to notice him.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cuisine	Mère fait à manger dans la cuisine.	Mother is cooking in the kitchen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+éviter	Nous devons éviter la guerre à tout prix.	We must avoid war at all cost.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+succès	Rien n'a plus de succès que le succès.	Nothing succeeds like success.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+île	Il est impossible de vivre sur cette île.	You can't live on that island.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+établir	Pourquoi cela leur prend-il tant de temps pour établir ma connexion Internet ?	Why does it take them so long to set up my internet connection?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+réussir	Travaille avec davantage d'application, si tu veux réussir !	Work harder if you plan to succeed.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pencher	Veuillez ne pas vous pencher par la fenêtre lorsque nous sommes en mouvement.	Please don't lean out of the window when we're moving.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+entourer	Ne vous entourez que de gens qui vont vous élever plus haut.	Surround yourself only with people who are going to lift you higher.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+déclarer	Je n'ai rien à déclarer.	I have nothing to declare.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+détail	Il expliqua en détail ce qu'il avait vu.	He explained in detail what he had seen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+arme	Il a utilisé son parapluie comme arme.	He used his umbrella as a weapon.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+réalité	Tu n'es plus en prise avec la réalité.	You're out of touch with reality.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+confiance	Ils ont l''air de te faire confiance.	They seem to trust you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+masse	La production en masse a réduit le prix de beaucoup de biens.	Mass production reduced the price of many goods.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+crise	Son entreprise ne survécut pas à la crise.	His company didn't survive the crisis.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étonner	Cette nouvelle va étonner mes collègues.	This news will surprise my colleagues.	authored_unreviewed	Original project teaching example
+dresser	Nous allons dresser la table avant leur arrivée.	We are going to set the table before they arrive.	authored_unreviewed	Original project teaching example
+durer	Combien de temps va durer ce beau temps ?	How long will this nice weather last?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+faux	Elle me donna un faux numéro de téléphone.	She gave me a fake phone number.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fixer	Nous devons fixer une date pour la réunion.	We need to set a date for the meeting.	authored_unreviewed	Original project teaching example
+énorme	Le besoin de réforme, en Italie, est énorme.	The need for reform in Italy is enormous.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+principe	Il applique ce principe à tout dans la vie.	He applies this principle to everything in life.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+direction	À quelle direction votre maison fait-elle face ?	What direction does your house face?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bonjour	Dis bonjour à ta femme, s'il te plaît.	Please say hello to your wife.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+merci	Merci de vous être arrêté sur votre chemin.	Thank you for stopping by.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+oui	Oui, je comprends.	Yes, I understand.	authored_unreviewed	Original project teaching example
+non	Non, merci.	No, thank you.	authored_unreviewed	Original project teaching example
+au revoir	Au revoir, à demain !	Goodbye, see you tomorrow!	authored_unreviewed	Original project teaching example
+s’il vous plaît	Un café, s’il vous plaît.	A coffee, please.	authored_unreviewed	Original project teaching example
+ami	Je me réjouis que vous soyez mon ami.	I'm glad you're my friend.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+amie	Je me réjouis que vous soyez mon amie.	I'm glad you're my friend.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+homme	C'est un homme qui tient toujours ses promesses.	He's a man of his word.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+femme	Il a une nouvelle femme dans sa vie.	He has a new woman in his life.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+enfant	La vie de son enfant est en danger.	His child's life is in danger.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+livre	Est-ce que ce livre est à toi ?	Is this book yours?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+maison	Il est en train de peindre sa maison.	He's painting his house.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+table	Il y a une pomme sur la table.	An apple sits on the table.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+école	Quand aura lieu la kermesse de ton école ?	When is your school festival?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ville	Je n'ai jamais entendu parler de cette ville.	I've never heard of that city.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jour	Je nourris mon chien une fois par jour.	I feed my dog once a day.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nuit	Étendue, elle était restée éveillée toute la nuit.	She lay awake all night.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+matin	Nous avons eu de la neige ce matin.	We had snow this morning.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+soir	Il se peut qu'il pleuve avant ce soir.	It might rain before evening.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+semaine	Il se peut qu'il gèle la semaine prochaine.	It may freeze next week.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+année	Tout le monde a eu une bonne année.	Everybody had a good year.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+temps	Est-ce de temps dont vous avez besoin ?	Is it time you need?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+heure	Je l'ai rencontrée il y a une heure.	I met her an hour ago.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+eau	On peut boire cette eau sans aucun risque.	This water is safe to drink.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pain	Je suis en train de cuire du pain.	I am baking bread.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+café	Je suis en train de boire du café.	I am drinking coffee.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+thé	Il est en train de boire du thé.	He is drinking tea.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+repas	Un travers d'agneau constitue un repas de choix.	A rack of lamb makes a great meal.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+restaurant	Où se trouve le restaurant le plus proche ?	Where's the closest restaurant?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+gare	Je l'ai rencontrée à la gare de Tokyo.	I met her at Tokyo Station.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+train	Le train a-t-il été en retard ?	Has the train been delayed?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+billet	As-tu fait l'acquisition d'un billet de retour ?	Did you buy a return ticket?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rue	Je vis de l'autre côté de la rue.	I live across the street.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+travail	Le travail est en retard sur le calendrier.	Work is behind schedule.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+emploi	Elle a quitté son emploi le mois dernier.	She quit her job last month.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+famille	Nous ne sommes pas de la même famille.	We're not family.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mère	Il a pris des nouvelles de ma mère.	He asked after my mother.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+père	C'est mon père qui a arrêté de boire.	My father quit drinking.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+frère	Il n'est pas aussi âgé que mon frère.	He isn't as old as my brother.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sœur	Je ne rends jamais visite à ma sœur.	I never visit my sister.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voiture	Il est en train de laver la voiture.	He is washing the car.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vélo	Je veux que tu me rendes mon vélo.	I want my bicycle back.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+problème	Je ne vois pas où est le problème.	I don't see a problem.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+solution	Est-ce qu'il y a une autre solution ?	Is there another solution?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+question	Il a posé une question à ce sujet.	He asked a question about it.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+réponse	Elle n'obtint pas de réponse de sa part.	She got no answer from him.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+idée	Je n'ai aucune idée de qui il est.	I have no idea who he is.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avis	Personne ne vous a demandé votre avis.	No one asked your opinion.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fait	Je pense que ce fait est très important.	I think that fact is very important.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+preuve	J'ai pris soin de ne laisser aucune preuve.	I was careful to not leave any evidence.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+source	Où se situe la source de ce fleuve ?	Where's the source of this river?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+donnée	Cette donnée manque dans le tableau.	This data point is missing from the table.	authored_unreviewed	Original project teaching example
+argument	Elle souleva une objection importante à son argument.	She raised an important objection to his argument.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+accord	Les Indiens n'étaient pas satisfaits de cet accord.	The Indians were not happy with this agreement.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+désaccord	Le désaccord entre le syndicat et la direction pourrait mener à la grève.	The disagreement between the union and management could lead to a strike.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+grand	Il est à la fois grand et beau.	He is tall and handsome.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+petit	Ce T-shirt est trop petit pour moi.	This T-shirt is too small for me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bon	Il a quitté le Japon pour de bon.	He left Japan for good.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mauvais	Ce n'est pas aussi mauvais qu'il y paraît.	It's not as bad as it seems.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+beau	J'avais oublié à quel point c'était beau, ici.	I forgot how beautiful it was here.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+nouveau	J'ai fait l'acquisition d'un nouveau sac-à-main.	I bought a new handbag.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+important	Je ne crois pas que ce soit important.	I don't think it's important.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+possible	Ne me dites pas ce qui est possible !	Don't tell me what's possible.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+difficile	Cela a-t-il été difficile à fabriquer ?	Was it difficult to make?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+facile	On dirait que c'est facile, en te regardant.	You make it look easy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+heureux	J'espère que vous êtes heureux tous les deux.	I hope you two are happy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+triste	Je me sens triste à cause de ça.	I am feeling sad about it.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ici	Y a-t-il qui que soit ici ?	Anybody here?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+là	Y avait-il là qui que ce soit ?	Was anybody in there?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+toujours	Je marche toujours pour me rendre à l'école.	I always walk to school.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+souvent	Il se rend souvent à l'école à pied.	He often walks to school.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+parfois	Je fais parfois de la planche à roulettes.	I sometimes skate.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jamais	Il ne le dit plus jamais à nouveau.	He never said it again.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+aujourd’hui	Un des étudiants n’est pas venu aujourd’hui.	One of the students didn’t come today.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+demain	Demain, il y a un contrôle de maths.	There's a math test tomorrow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+hier	Ils ont eu une prise de bec, hier.	They had a spat yesterday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avec	Je viens avec toi.	I am coming with you.	authored_unreviewed	Original project teaching example
+sans	Je pars sans mon sac.	I am leaving without my bag.	authored_unreviewed	Original project teaching example
+dans	Le livre est dans le sac.	The book is in the bag.	authored_unreviewed	Original project teaching example
+sur	Le livre est sur la table.	The book is on the table.	authored_unreviewed	Original project teaching example
+sous	Le chat est sous la table.	The cat is under the table.	authored_unreviewed	Original project teaching example
+chez	Je dîne chez mes parents ce soir.	I am having dinner at my parents’ home tonight.	authored_unreviewed	Original project teaching example
+pour	Ce livre est pour toi.	This book is for you.	authored_unreviewed	Original project teaching example
+contre	Nous avons voté contre le projet de loi.	We voted against the bill.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avant	Nous avons commencé avant le lever du jour.	We started before sunrise.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+après	Il est venu après que vous êtes parti.	He came after you left.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+parce que	Je prends le bus parce que ma voiture est en panne.	I am taking the bus because my car has broken down.	authored_unreviewed	Original project teaching example
+cependant	À ce moment-là, cependant, c'était trop tard.	By then, however, it was too late.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+néanmoins	Il pleut ; nous sortons néanmoins.	It is raining; nevertheless, we are going out.	authored_unreviewed	Original project teaching example
+en revanche	Le trajet est long ; en revanche, le billet coûte peu cher.	The journey is long; on the other hand, the ticket is inexpensive.	authored_unreviewed	Original project teaching example
+je	Je suis ici.	I am here.	authored_unreviewed	Original project teaching example
+tu	Tu es ici.	You are here.	authored_unreviewed	Original project teaching example
+il	Il arrive demain.	He arrives tomorrow.	authored_unreviewed	Original project teaching example
+elle	Elle arrive demain.	She arrives tomorrow.	authored_unreviewed	Original project teaching example
+nous	Nous parlons français.	We speak French.	authored_unreviewed	Original project teaching example
+vous	Vous avez une question ?	Do you have a question?	authored_unreviewed	Original project teaching example
+ils	Ils arrivent demain.	They arrive tomorrow.	authored_unreviewed	Original project teaching example
+elles	Elles arrivent demain.	They arrive tomorrow.	authored_unreviewed	Original project teaching example
+un	Un ami arrive.	A friend is arriving.	authored_unreviewed	Original project teaching example
+une	Une amie arrive.	A friend is arriving.	authored_unreviewed	Original project teaching example
+le	Le train arrive.	The train is arriving.	authored_unreviewed	Original project teaching example
+la	La porte est ouverte.	The door is open.	authored_unreviewed	Original project teaching example
+les	Les enfants jouent.	The children are playing.	authored_unreviewed	Original project teaching example
+l’	L’école ouvre à huit heures.	The school opens at eight.	authored_unreviewed	Original project teaching example
+stylo	Est-ce que ce stylo est à toi ?	Is this pen yours?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+chaise	Le chien a sauté par-dessus une chaise.	The dog jumped over a chair.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fenêtre	Il a fait exprès de casser la fenêtre.	He broke the window on purpose.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+porte	La porte est en train de se fermer.	The door is closing.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+appartement	Quelqu'un s'est introduit par effraction dans mon appartement.	Someone broke into my apartment.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bureau	Mon ordinateur est posé sur le bureau.	My computer is on the desk.	authored_unreviewed	Original project teaching example
+parler	Nous pouvons parler demain.	We can talk tomorrow.	authored_unreviewed	Original project teaching example
+aimer	J’aime cette chanson.	I like this song.	authored_unreviewed	Original project teaching example
+habiter	Nous habitons ici.	We live here.	authored_unreviewed	Original project teaching example
+regarder	Je regarde le ciel.	I am looking at the sky.	authored_unreviewed	Original project teaching example
+écouter	J’écoute la radio.	I am listening to the radio.	authored_unreviewed	Original project teaching example
+travailler	Elle travaille au bureau.	She works at the office.	authored_unreviewed	Original project teaching example
+étudier	Tu as eu toute la semaine pour étudier.	You've had all week to study.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jouer	Les enfants vont jouer dehors.	The children are going to play outside.	authored_unreviewed	Original project teaching example
+chanter	Je pense que je peux chanter plutôt bien.	I think I can sing fairly well.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+danser	Quel dommage que tu ne saches pas danser !	What a pity you can't dance!	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+qui	Qui vient demain ?	Who is coming tomorrow?	authored_unreviewed	Original project teaching example
+quoi	Tu veux quoi ?	What do you want?	authored_unreviewed	Original project teaching example
+que	Que voulez-vous boire ?	What would you like to drink?	authored_unreviewed	Original project teaching example
+où	Où est la gare ?	Where is the station?	authored_unreviewed	Original project teaching example
+quand	Quand pars-tu ?	When are you leaving?	authored_unreviewed	Original project teaching example
+pourquoi	Pourquoi pars-tu ?	Why are you leaving?	authored_unreviewed	Original project teaching example
+comment	Comment allez-vous ?	How are you?	authored_unreviewed	Original project teaching example
+combien	Combien coûte ce livre ?	How much does this book cost?	authored_unreviewed	Original project teaching example
+lundi	Il me faut prendre ma journée de lundi.	I need to take Monday off.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mardi	Finir le travail pour mardi sera du gâteau.	Finishing the job by Tuesday will be a piece of cake.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mercredi	Notre cercle tiendra sa réunion mensuelle mercredi prochain.	Our club will hold its monthly meeting next Wednesday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jeudi	Nous devrions connaître le résultat d'ici à jeudi.	We should know the result by Thursday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vendredi	Est-ce que l'avocat peut me voir vendredi?	Can the lawyer see me on Friday?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+samedi	Et si on jouait au tennis samedi prochain ?	How about playing tennis next Saturday?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dimanche	Nous travaillons tous les jours sauf le dimanche.	We work every day but Sunday.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+minute	Il est parti il y a une minute.	He left a minute ago.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mois	J'ai entendu parler de lui le mois dernier.	I heard from him last month.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rendez-vous	J’ai rendez-vous chez le médecin à dix heures.	I have a doctor’s appointment at ten.	authored_unreviewed	Original project teaching example
+grand-père	Mon grand-père aime raconter des histoires.	My grandfather likes telling stories.	authored_unreviewed	Original project teaching example
+grand-mère	Ma grand-mère habite près de chez nous.	My grandmother lives near us.	authored_unreviewed	Original project teaching example
+parent	Tom n'est pas parent.	Tom isn't a parent.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cousin	Mon cousin vient déjeuner dimanche.	My male cousin is coming for lunch on Sunday.	authored_unreviewed	Original project teaching example
+cousine	Ma cousine travaille à la bibliothèque.	My female cousin works at the library.	authored_unreviewed	Original project teaching example
+fils	J'ai confectionné un nouveau costume pour mon fils.	I made my son a new suit.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fille	Leur fille apprend à lire.	Their daughter is learning to read.	authored_unreviewed	Original project teaching example
+mari	Son mari est sur son lit de mort.	Her husband is about to die.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+épouse	Son épouse est une amie de la mienne.	His wife's a friend of mine.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mon	Mon sac est sous la table.	My bag is under the table.	authored_unreviewed	Original project teaching example
+ma	Ma veste est sur la chaise.	My jacket is on the chair.	authored_unreviewed	Original project teaching example
+mes	Mes clés sont dans mon sac.	My keys are in my bag.	authored_unreviewed	Original project teaching example
+rouge	Le vert ne va pas avec le rouge.	Green doesn't go with red.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bleu	Lequel tu préfères, le rouge ou le bleu ?	Which one do you prefer, the red one or the blue one?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vert	Le vert ne va pas avec le rouge.	Green doesn't go with red.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+noir	Il fait noir comme dans un four, dehors.	It's pitch black outside.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+blanc	Mon père a peint les murs en blanc.	Dad painted the walls white.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+jaune	Elles peignirent les cadres des fenêtres en jaune.	They painted the window frames yellow.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+vieux	Je suis à présent dans un vieux château.	I am now in an old castle.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+long	"""A"" est cinq fois plus long que ""B""."	A is 5 times as long as B.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+court	Merci d'être venu dans un délai si court.	Thanks for coming on such short notice.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cher	Ta montre coûte plus cher que la mienne.	Your watch is more expensive than mine.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pomme	Il est en train de dessiner une pomme.	He's sketching an apple.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+orange	Il y a une orange sur la table.	There is an orange on the table.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+banane	Il a glissé sur une peau de banane.	He slipped on a banana peel.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fromage	La fabrication du fromage est un art.	Making cheese is an art.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+riz	On fait le saké à partir du riz.	We make sake from rice.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+lait	Le beurre est fait à partir de lait.	Butter is made from milk.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sucre	Ajoute un peu de sucre, s'il te plaît.	Add a bit of sugar, please.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+sel	Cette soupe a besoin de davantage de sel.	This soup needs more salt.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+poisson	Je suis en train de griller du poisson.	I am grilling fish.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+viande	Découpe et enlève la graisse de la viande.	Trim the fat off the meat.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+légume	Comment appelle-t-on ce légume en anglais ?	What do you call this vegetable in English?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pharmacie	Où se trouve la pharmacie la plus proche ?	Where's the nearest pharmacy?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+banque	Il a obtenu un prêt de la banque.	He got a loan from the bank.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+poste	Le bureau de poste est le bâtiment marron.	The post office is the brown building.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+marché	Je ne me suis pas rendu au marché.	I didn't go to the market.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+magasin	Où se trouve le magasin le plus proche ?	Where is the nearest shop?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bibliothèque	Il va souvent à la bibliothèque en voiture.	He often drives to the library.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+musée	Où se situe le musée le plus proche ?	Where's the nearest museum?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+parc	Il se trouve quelque part dans le parc.	He's somewhere in the park.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pont	Il y a un chien sur le pont.	There is a dog on the bridge.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+carrefour	L'accident a eu lieu à ce carrefour.	The accident happened at that intersection.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+prix	Il y a un faible prix à payer.	There's a small price to pay.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+taille	Je pense que nous n'avons plus votre taille.	I think we're out of your size.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+caisse	Où est la caisse ?	Where's the checkout counter?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+monnaie	Avez-vous de la monnaie pour le parking ?	Do you have any change for the parking meter?	authored_unreviewed	Original project teaching example
+carte	Puis-je faire usage d'une carte de crédit ?	Can I use a credit card?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+espèces	Les dons en espèces seront acceptés.	Cash donations will be accepted.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+client	La satisfaction client est notre priorité numéro un.	Customer satisfaction is our number one priority.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cliente	La cliente demande un reçu.	The customer asks for a receipt.	authored_unreviewed	Original project teaching example
+commande	Puis-je prendre votre commande, s'il vous plaît ?	May I have your order, please?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+santé	La santé est au-dessus de la richesse.	Health is above wealth.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+médecin	Je pense que nous avons besoin d'un médecin.	I think we need a doctor.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+douleur	J'ai appris à ne pas ignorer ma douleur.	I learned not to ignore my pain.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tête	Il fait une tête de plus que moi.	He is a head taller than me.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+main	Donne-moi un coup de main pour ça.	Give me a hand with this.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pied	Combien de temps cela prend-il à pied ?	How long does it take on foot?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bras	Je n'arrive pas à plier mon bras droit.	I can't bend my right arm.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fièvre	Il semble que j'aie de la fièvre.	I seem to have a fever.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+fatigue	La fatigue m’empêche de me concentrer.	Tiredness prevents me from concentrating.	authored_unreviewed	Original project teaching example
+malade	Il ne se peut pas qu'il soit malade.	He can't be ill.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voyage	On assimile souvent la vie à un voyage.	Life is often compared to a journey.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+valise	Je crois que ma valise a été volée.	I think my suitcase was stolen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+aéroport	De quel aéroport est-ce que je pars ?	Which airport do I leave from?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avion	Le garçon a confectionné un avion de papier.	The boy made a paper plane.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bus	Nous prenons le bus pour aller en cours.	We go to school by bus.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+métro	Je prends le métro pour aller au travail.	I take the metro to work.	authored_unreviewed	Original project teaching example
+retard	L'avion est parti avec un retard de trois heures.	The plane left after a three-hour delay.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+départ	Nous ne pouvons éviter de remettre notre départ.	We can't avoid postponing our departure.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+arrivée	Je l'ai informé de son arrivée.	I informed her of his arrival.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quai	À quel quai se trouve-t-il ?	Which platform is it on?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+passé	Tu ne peux pas effacer le passé.	You can't erase the past.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+souvenir	Il chérissait le souvenir de sa défunte femme.	He cherished the memory of his dead wife.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+histoire	Raconte-moi une histoire avant de dormir.	Tell me a story before going to sleep.	authored_unreviewed	Original project teaching example
+vacances	Les vacances ont finalement touché à leur fin.	The holidays came to an end at last.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+photo	Avez-vous jamais vu l'homme sur cette photo ?	Have you ever seen the man in this photo?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+découverte	Cette expérience mena à une grande découverte.	That experiment led to a great discovery.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rencontre	Je me réjouis par avance de notre nouvelle rencontre.	I look forward to our next meeting.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+événement	Cet événement est encore frais dans notre mémoire.	The event is still fresh in our memory.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+depuis	J’habite ici depuis trois ans.	I have lived here for three years.	authored_unreviewed	Original project teaching example
+pendant	J’ai étudié pendant deux heures.	I studied for two hours.	authored_unreviewed	Original project teaching example
+autrefois	Autrefois, ce bâtiment était une école.	This building used to be a school.	authored_unreviewed	Original project teaching example
+déjà	Je me sens déjà assez mal comme ça.	I feel bad enough already.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+encore	Le magasin est encore ouvert.	The shop is still open.	authored_unreviewed	Original project teaching example
+ensuite	Et ensuite, qu'est-ce qui va se passer ?	And then what will happen?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+soudain	Soudain j'ai remarqué que ma montre avait disparu.	I suddenly realized that my watch was gone.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+bientôt	Je pense que je serai bientôt de retour.	I think I'll come back soon.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+projet	Nous commençâmes à travailler à un nouveau projet.	We began on a new project.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+objectif	Marie n'épargnera rien pour atteindre son objectif.	Mary will stop at nothing to achieve her goal.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+prévision	La prévision météo était juste.	The weather forecast was right.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+plan	Pas un mot au sujet de ce plan.	Keep mum about this plan.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avenir	Nous nous faisons du souci pour votre avenir.	We worry about your future.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+possibilité	Il y a une possibilité de guerre.	There's a possibility of war.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+intention	Je n'avais aucune intention de m'y rendre seul.	I had no intention of going there by myself.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étape	C'est la prochaine étape logique.	It's the next logical step.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+formation	Quelle sorte de formation as-tu reçue ?	What kind of training have you had?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+entreprise	Son entreprise ne survécut pas à la crise.	His company didn't survive the crisis.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+collègue	Mon collègue m'a remplacé pendant que j'étais malade.	My colleague filled in for me while I was sick.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+réunion	Il n'a pas pris part à la réunion.	He didn't attend the meeting.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+dossier	Dans quel dossier as-tu enregistré le fichier ?	In which folder did you save the file?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+délai	Tu dois terminer ce travail avant le délai.	You must get the job done before the deadline.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+tâche	Es-tu à la hauteur de la tâche ?	Are you up to the task?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+responsable	Elle a exigé de voir le responsable.	She demanded to see the manager.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+équipe	Nous faisons tous partie de la même équipe.	We're all on the same team.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+quartier	Nous vivons tous dans le même quartier.	We all live in the same neighborhood.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+logement	Il y a un besoin urgent de logement abordable.	There is an urgent need for affordable housing.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+loyer	Je paie toujours le loyer dans les temps.	I always pay the rent on time.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voisin	Je veux tout simplement être un bon voisin.	I just want to be a good neighbor.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+voisine	Je veux tout simplement être une bonne voisine.	I just want to be a good neighbor.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+immeuble	Est-ce que cet immeuble possède un ascenseur?	Does this building have an elevator?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ascenseur	Est-ce que cet immeuble possède un ascenseur?	Does this building have an elevator?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+étage	Ils vivent au douzième étage de ces appartements.	They live on the 12th floor of this condo.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+émission	Cette émission est diffusée de manière bi-hebdomadaire.	This program is broadcast every other week.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+article	L'auteur de cet article est un critique célèbre.	The author of this article is a famous critic.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+journal	Je suis en train de lire le journal.	I'm reading the newspaper.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+information	Je ne peux pas encore dévoiler cette information.	I can't disclose that information yet.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+actualités	J’écoute les actualités à la radio.	I listen to the news on the radio.	authored_unreviewed	Original project teaching example
+entretien	Le sénateur rejeta des demandes répétées pour un entretien.	The senator denied repeated requests for an interview.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+reportage	Ce reportage présente la vie du quartier.	This report presents life in the neighbourhood.	authored_unreviewed	Original project teaching example
+témoignage	Nous savons désormais que le témoignage qu'il donna était contraint.	We now know that the testimony he gave was coerced.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+avantage	C'est un avantage de savoir utiliser un ordinateur.	It is an advantage to be able to use a computer.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+inconvénient	Le principal inconvénient est le prix.	The main disadvantage is the price.	authored_unreviewed	Original project teaching example
+cause	Actuellement, la cause de la maladie reste inconnue.	At present, the cause of the disease is unknown.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+conséquence	La conséquence d'une mauvaise traduction peut parfois être catastrophique.	The consequence of a wrong translation can sometimes be catastrophic.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+exemple	Par exemple, est-ce que tu aimes l’anglais ?	For example, do you like English?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+raison	C'est la raison pour laquelle je suis ici.	That's the reason I'm here.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+choix	De quel choix est-ce que je disposais ?	What choice did I have?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+préférence	Ma préférence va au train.	My preference is for the train.	authored_unreviewed	Original project teaching example
+environnement	La famille s'adapta rapidement à son nouvel environnement.	The family assimilated quickly into their new environment.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+déchet	Chaque déchet doit aller dans la bonne poubelle.	Each piece of waste must go in the right bin.	authored_unreviewed	Original project teaching example
+énergie	Il consacrait toute son énergie à son commerce.	He directed all his energy to his business.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+climat	Tu vas bientôt t'habituer au changement de climat.	You will soon get used to the change of climate.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+ressource	J'utilise Internet comme ressource pour mes recherches.	I use the Internet as a resource for my research.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+pollution	La pollution de l'eau est un autre problème.	Water pollution is another problem.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+durable	Nous cherchons une solution durable.	We are looking for a sustainable solution.	authored_unreviewed	Original project teaching example
+recyclage	Le recyclage permet de réutiliser des matériaux.	Recycling allows materials to be reused.	authored_unreviewed	Original project teaching example
+hypothèse	Ces faits soutiennent mon hypothèse.	These facts support my hypothesis.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+condition	Je ferai ce travail à condition d'être payé.	I will do that work on condition that I get paid for it.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+probabilité	Selon toute probabilité, le gouvernement va tomber.	In all probability, the cabinet will fall.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+certitude	Je ne peux pas le dire avec certitude.	I cannot say for certain.	authored_unreviewed	Original project teaching example
+doute	Il ne fait aucun doute qu'elle viendra bientôt.	No doubt she will come soon.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+supposition	C'est une juste supposition.	That's a fair assumption.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+éventuel	Prévoyez du temps pour un éventuel retard.	Allow time for a possible delay.	authored_unreviewed	Original project teaching example
+débat	Ils eurent un débat sur le mariage homosexuel.	They had a debate on same-sex marriage.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+enjeu	L’enjeu principal est l’accès à l’éducation.	The main issue at stake is access to education.	authored_unreviewed	Original project teaching example
+thèse	Avez-vous déjà choisi votre sujet de thèse ?	Have you already decided on your thesis topic?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+réfutation	Elle propose une réfutation précise de cet argument.	She offers a precise rebuttal of this argument.	authored_unreviewed	Original project teaching example
+nuance	Cette nuance change le sens de la phrase.	This nuance changes the meaning of the sentence.	authored_unreviewed	Original project teaching example
+concession	Il fait une concession pour trouver un accord.	He makes a concession to reach an agreement.	authored_unreviewed	Original project teaching example
+contradiction	Je vois une contradiction entre ces deux affirmations.	I see a contradiction between these two statements.	authored_unreviewed	Original project teaching example
+citoyen	Il est devenu un citoyen des États-Unis.	He became a citizen of the United States.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+citoyenne	Je suis une citoyenne américaine.	I'm an American citizen.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+institution	C'est une institution pour les fous criminels.	This is an institution for the criminally insane.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+politique	Cette politique encourage les transports publics.	This policy encourages public transport.	authored_unreviewed	Original project teaching example
+réforme	Le besoin de réforme, en Italie, est énorme.	The need for reform in Italy is enormous.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+mesure	Cette mesure vise à réduire le bruit.	This measure aims to reduce noise.	authored_unreviewed	Original project teaching example
+droit	Chaque personne a droit au respect.	Every person has a right to respect.	authored_unreviewed	Original project teaching example
+devoir	Il sentit que c'était son devoir d'y aller.	He felt it was his duty to go.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+synthèse	Votre synthèse doit réunir les idées essentielles.	Your synthesis should bring together the essential ideas.	authored_unreviewed	Original project teaching example
+résumé	Écris un résumé du texte en cinq lignes.	Write a five-line summary of the text.	authored_unreviewed	Original project teaching example
+interprétation	Je suis d'accord avec votre interprétation, dans une large mesure.	I agree with your interpretation to a large extent.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+perspective	Permettez-moi de vous mettre ceci en perspective.	Let me put this in perspective for you.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cadre	Nous discutons du projet dans un cadre professionnel.	We are discussing the project in a professional framework.	authored_unreviewed	Original project teaching example
+limite	Il y a une limite à toutes choses.	There is a limit to everything.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+portée	La portée de cette étude est limitée.	The scope of this study is limited.	authored_unreviewed	Original project teaching example
+ironie	Son sourire laisse deviner une certaine ironie.	Her smile hints at a certain irony.	authored_unreviewed	Original project teaching example
+sous-entendu	Je n’ai pas compris le sous-entendu de sa remarque.	I did not understand the implication of his remark.	authored_unreviewed	Original project teaching example
+allusion	Il fait allusion à notre première rencontre.	He is alluding to our first meeting.	authored_unreviewed	Original project teaching example
+ambiguïté	Il faut lever cette ambiguïté avant de répondre.	We need to resolve this ambiguity before answering.	authored_unreviewed	Original project teaching example
+implicite	Cette règle reste implicite dans leur accord.	This rule remains implicit in their agreement.	authored_unreviewed	Original project teaching example
+explicite	Je vous demande une réponse explicite.	I am asking you for an explicit answer.	authored_unreviewed	Original project teaching example
+registre	Pourriez-vous signer le registre ?	Could you please sign the register?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+rhétorique	Cette question relève de la rhétorique.	This question is a matter of rhetoric.	authored_unreviewed	Original project teaching example
+argumentation	Son argumentation repose sur des faits précis.	Her argumentation is based on precise facts.	authored_unreviewed	Original project teaching example
+contre-argument	Avez-vous un contre-argument à proposer ?	Do you have a counterargument to suggest?	authored_unreviewed	Original project teaching example
+prémisse	Votre raisonnement part d’une prémisse discutable.	Your reasoning starts from a debatable premise.	authored_unreviewed	Original project teaching example
+conclusion	Comment es-tu parvenu à cette conclusion ?	How did you arrive at this conclusion?	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+cohérence	Ce paragraphe manque de cohérence.	This paragraph lacks coherence.	authored_unreviewed	Original project teaching example
+pertinence	Je n'en vois pas la pertinence.	I don't see the relevance.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+subtilité	La subtilité n'a jamais été ton fort.	Subtlety never was your strong suit.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+connotation	Ce mot a une connotation négative dans ce contexte.	This word has a negative connotation in this context.	authored_unreviewed	Original project teaching example
+équivoque	Sa réponse a créé une équivoque.	Her answer created an ambiguity.	authored_unreviewed	Original project teaching example
+paradoxe	Ce paradoxe mérite une explication.	This paradox deserves an explanation.	authored_unreviewed	Original project teaching example
+litote	« Ce n’est pas mauvais » peut être une litote pour dire que c’est bon.	“Not bad” can be an understatement meaning that something is good.	authored_unreviewed	Original project teaching example
+métaphore	« Un océan de soucis » est une métaphore.	“An ocean of worries” is a metaphor.	authored_unreviewed	Original project teaching example
+ellipse	« Pas maintenant » contient une ellipse du verbe.	“Not now” contains an ellipsis of the verb.	authored_unreviewed	Original project teaching example
+plaidoyer	Elle présente un plaidoyer en faveur de l’éducation.	She presents an argument in favour of education.	authored_unreviewed	Original project teaching example
+diplomatie	Le français était la langue de la diplomatie.	French was the language of diplomacy.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+compromis	Vous devez apprendre à faire des compromis.	You have to learn how to compromise.	corpus_unreviewed	Tatoeba via desmondyeoh/data-eng-fra
+arbitrage	Les parties acceptent un arbitrage indépendant.	The parties agree to independent arbitration.	authored_unreviewed	Original project teaching example
+médiation	Une médiation peut faciliter le dialogue.	Mediation can help dialogue.	authored_unreviewed	Original project teaching example
+précision	Pouvez-vous expliquer ce point avec plus de précision ?	Can you explain this point more precisely?	authored_unreviewed	Original project teaching example
+réserve	J’accepte votre proposition avec une réserve.	I accept your proposal with one reservation.	authored_unreviewed	Original project teaching example

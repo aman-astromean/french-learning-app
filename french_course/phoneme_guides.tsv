@@ -1,0 +1,38 @@
+symbol|title|articulation|example_fr|example_ipa|contrast
+a|Open a|Open the mouth and keep the tongue low and forward; do not add an English-style glide.|ami|/ami/|Many modern accents merge /a/ and /ɑ/.
+ɑ|Back a|Keep the tongue low and farther back than /a/. This distinction varies by region.|pâte|/pɑt/|Compare patte /pat/ in accents retaining the distinction.
+i|Close front i|Raise the front of the tongue with unrounded lips.|ici|/isi/|Keep it steady rather than turning it into a diphthong.
+e|Close-mid e|Raise the front of the tongue moderately and keep the lips unrounded.|été|/ete/|Contrast /ɛ/, which is more open.
+ɛ|Open-mid e|Lower the tongue more than for /e/ while keeping the lips unrounded.|mère|/mɛʁ/|Compare été /ete/ and mère /mɛʁ/.
+ə|Schwa|Use a short central vowel. Its presence varies with rhythm, region and surrounding consonants.|le|/lə/|Schwa deletion is contextual, not a rule to delete every written e.
+y|Close front rounded u|Start from tongue position /i/ and round the lips without moving the tongue backward.|tu|/ty/|Contrast tout /tu/.
+u|Close back rounded ou|Raise the back of the tongue and round the lips.|tout|/tu/|Contrast tu /ty/.
+o|Close-mid o|Keep the tongue toward the back with a relatively closed rounded vowel.|mot|/mo/|Contrast the more open /ɔ/ in porte.
+ɔ|Open-mid o|Open the jaw more than for /o/ and retain rounded lips.|porte|/pɔʁt/|The /o/–/ɔ/ distribution varies across accents.
+ø|Close-mid rounded eu|Use a front mid vowel with rounded lips.|deux|/dø/|Contrast the more open /œ/ in sœur.
+œ|Open-mid rounded eu|Keep the tongue toward the front, lower than for /ø/, and round the lips.|sœur|/sœʁ/|Do not replace this sound with English er.
+ɑ̃|Nasal an/en|Produce a low back vowel while allowing air through the nose; do not add a separate final n.|sans|/sɑ̃/|Contrast the oral vowel plus consonant in a word such as année.
+ɔ̃|Nasal on|Round the lips and allow nasal airflow while keeping one vowel sound.|nom|/nɔ̃/|Compare bon /bɔ̃/ and bonne /bɔn/.
+ɛ̃|Nasal in/ain|Produce an open front nasal vowel without appending an English n.|pain|/pɛ̃/|Spellings in, ain, ein and others can represent this vowel.
+œ̃|Nasal un|Use a rounded nasal front vowel where the accent retains this distinction.|un|/œ̃/|Many French speakers merge /œ̃/ with /ɛ̃/; regional models differ.
+p|Unvoiced lip stop|Close both lips, then release without a strong English-style puff of air.|pain|/pɛ̃/|Contrast voiced /b/.
+b|Voiced lip stop|Close both lips and maintain voicing into the release.|bon|/bɔ̃/|Contrast unvoiced /p/.
+t|Unvoiced dental stop|Place the tongue near the upper teeth and release with little aspiration.|tout|/tu/|Some regional varieties affricate t before certain vowels.
+d|Voiced dental stop|Place the tongue near the upper teeth and release with voicing.|deux|/dø/|Contrast /t/.
+k|Unvoiced back stop|Close the back of the tongue against the soft palate and release.|café|/kafe/|C before e or i often represents /s/ instead.
+ɡ|Voiced back stop|Close the back of the tongue against the soft palate and release with voicing.|gare|/ɡaʁ/|G before e or i often represents /ʒ/ instead.
+f|Unvoiced lip-to-teeth fricative|Touch the lower lip lightly to the upper teeth and let air pass.|fille|/fij/|Contrast voiced /v/.
+v|Voiced lip-to-teeth fricative|Use the /f/ position with vocal-fold vibration.|vous|/vu/|Contrast /f/.
+s|Unvoiced s|Let air pass along the tongue near the upper teeth without voicing.|sac|/sak/|A single written s between vowels often sounds /z/.
+z|Voiced z|Use the /s/ position with voicing.|zéro|/zeʁo/|A plural liaison often introduces /z/.
+ʃ|Ch sound|Round the lips slightly and direct air behind the alveolar ridge without voicing.|chat|/ʃa/|Contrast /ʒ/ in jour.
+ʒ|Voiced ch-like sound|Use the /ʃ/ position with voicing.|jour|/ʒuʁ/|Written j and soft g often represent this sound.
+m|Lip nasal|Close both lips and allow air to pass through the nose.|mère|/mɛʁ/|A nasal consonant differs from a nasal vowel.
+n|Front nasal|Place the tongue near the upper teeth and let air pass through the nose.|nous|/nu/|Do not add /n/ after a nasal vowel unless the word calls for it.
+ɲ|Gn nasal|Raise the middle of the tongue toward the hard palate while allowing nasal airflow.|montagne|/mɔ̃taɲ/|Some speakers use a sequence close to /nj/.
+ŋ|Back nasal|Close the back of the tongue against the soft palate while allowing nasal airflow.|parking|/paʁkiŋ/|This sound occurs especially in borrowed words.
+l|Lateral l|Touch the tongue near the upper teeth and let air pass around its sides.|livre|/livʁ/|Avoid an added vowel between consonants.
+ʁ|French r|Produce a voiced or partly devoiced uvular friction sound toward the back of the mouth; regional r sounds vary.|rue|/ʁy/|Do not force excessive throat tension.
+j|Palatal glide|Move quickly through a tongue position close to /i/ without making a full extra syllable.|fille|/fij/|Written ill does not always represent /j/: ville is an exception.
+w|Rounded back glide|Move quickly from a rounded back position toward the following vowel.|oui|/wi/|Oi commonly represents /wa/.
+ɥ|Rounded front glide|Keep a front tongue position like /y/ and glide rapidly to the following vowel.|huit|/ɥit/|Contrast the back glide /w/.

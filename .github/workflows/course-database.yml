@@ -1,0 +1,45 @@
+name: Rebuild course SQLite
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "french_course/**"
+      - "!french_course/french_course.sqlite"
+      - "!french_course/course_days.csv"
+      - ".github/workflows/course-database.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: course-sqlite-main
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and validate the portable database
+        run: |
+          python3 french_course/build.py
+          python3 -m unittest discover -s french_course -p 'test_*.py'
+          python3 - <<'PY'
+          import json, sqlite3
+          db = sqlite3.connect('french_course/french_course.sqlite')
+          tables = ['conversation_words', 'verbs', 'conjugations', 'sentence_patterns', 'sentence_tasks']
+          print(json.dumps({table: db.execute('SELECT COUNT(*) FROM ' + table).fetchone()[0] for table in tables}))
+          print('SQLite integrity:', db.execute('PRAGMA integrity_check').fetchone()[0])
+          PY
+      - name: Commit the rebuilt SQLite artifact
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add french_course/french_course.sqlite french_course/course_days.csv
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Rebuild validated French course SQLite"
+          git push origin HEAD:main

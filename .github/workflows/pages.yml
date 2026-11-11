@@ -50,17 +50,18 @@ jobs:
         uses: actions/cache@v4
         with:
           path: web/audio
+          restore-keys: parole-audio-v1-
           key: parole-audio-v1-${{ hashFiles('web/generate_pronunciation.py', 'french_course/french_course.sqlite') }}
       - name: Generate French pronunciation audio
-        continue-on-error: true
-        timeout-minutes: 8
+        timeout-minutes: 40
         env:
           HF_HUB_DISABLE_XET: '1'
           HF_HUB_DOWNLOAD_TIMEOUT: '30'
           PIP_DEFAULT_TIMEOUT: '20'
           PIP_RETRIES: '2'
         run: |
-          if [ -s web/audio/index.json ]; then exit 0; fi
+          if [ "${{ steps.audio-cache.outputs.cache-hit }}" = true ] && [ -s web/audio/index.json ]; then exit 0; fi
+          rm -f web/audio/index.json
           trap 'if [ ! -s web/audio/index.json ]; then rm -rf web/audio; fi' EXIT
           python3 -m venv "$RUNNER_TEMP/parole-voice"
           source "$RUNNER_TEMP/parole-voice/bin/activate"

@@ -39,3 +39,12 @@ Use **Listen** or **Slow** on sound examples, words and flashcards. Lesson examp
 The Pages workflow generates a starter set of `fr-FR` MP3 clips with the [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) model and its `ff_siwis` voice. It pins the model revision and builds audio from the course’s first two weeks and common vocabulary. Static clips need no API key or microphone and are downloaded on demand. The remaining content uses an available French voice through the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices). Device voices and accents vary; the app will report a missing French voice rather than select an English one. A French system voice may need to be enabled in device settings.
 
 The clips are synthetic learning aids; they have not been independently reviewed by French instructors. Playback does not record or score the learner. Local builds work with device voices unless the optional `web/generate_pronunciation.py` step is run with the dependencies listed in the Pages workflow.
+
+## Verb Conjugation and Dictionary
+
+Both sections are in the desktop sidebar and the mobile navigation. Search by French spelling, English meaning, or a stored form. Accents are optional when searching. Press Enter to open the first result, or pick another match from the list.
+
+- **Verb Conjugation:** 439 base verbs and 14 pronominal entries, with all forms available in the course database. Open a tense to see its subjects, forms, available IPA, audio and variants. Entries include contextual examples and auxiliary or usage notes.
+- **Dictionary:** 3,000 course words with English meanings, IPA, audio and bilingual examples. Nouns and adjectives show available inflections. Entries link to applicable sentence patterns and to the conjugation table when a verb reference is available.
+
+`web/export_course.py` generates the search indexes and entry files under `data/reference/`. Opening a reference tab loads its search index; selecting an entry loads only that group of records. Audio uses the same neural clips and French device voice fallback as lessons.

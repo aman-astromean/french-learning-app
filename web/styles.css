@@ -71,3 +71,50 @@
 .word-with-audio{min-width:0}
 .speech-status{position:fixed;right:16px;bottom:90px;z-index:65;max-width:min(27rem,calc(100vw - 32px));margin:0;padding:10px 14px;border-radius:12px;background:#202430;color:white;font-size:.9rem;line-height:1.4;pointer-events:none}
 .speech-status:empty{display:none}
+.reference-grid{display:grid;grid-template-columns:minmax(218px,.72fr) minmax(0,1.8fr);align-items:start;gap:18px}
+.reference-search,.reference-detail{min-width:0;padding:22px}
+.reference-detail{scroll-margin-top:85px;overflow-wrap:anywhere}
+.reference-search label{display:block;font-weight:720;margin-bottom:8px}
+.reference-input{display:flex;align-items:center;gap:7px;padding:0 11px;background:var(--surface-alt);border:1px solid var(--hair);border-radius:12px;color:var(--sub)}
+.reference-input:focus-within{border-color:var(--accent);outline:2px solid var(--accent-soft)}
+.reference-input input{width:100%;min-width:0;min-height:44px;color:var(--ink);background:transparent;border:0;outline:none}
+.reference-input input:focus-visible{outline:none}
+.reference-count,.reference-empty,.reference-note,.reference-placeholder p{font-size:.88rem;color:var(--sub)}
+.reference-results,.reference-examples{list-style:none;margin:0;padding:0}
+.reference-results{max-height:490px;overflow:auto;scrollbar-width:thin;display:grid;gap:5px;padding:3px}
+.reference-result{display:flex;width:100%;min-height:48px;align-items:center;justify-content:space-between;gap:8px;text-align:left;padding:8px 10px;color:var(--ink);background:transparent;border:1px solid transparent;border-radius:11px;overflow-wrap:anywhere}
+.reference-result strong,.reference-result small{display:block}
+.reference-result small{color:var(--sub);line-height:1.35}
+.reference-result .badge{padding:3px 6px;font-size:.7rem;white-space:normal;text-align:right;max-width:42%;flex-shrink:0}
+.reference-result:hover,.reference-result[aria-current="true"]{border-color:var(--hair);background:var(--accent-soft)}
+.reference-more{margin-top:12px;width:100%}
+.reference-placeholder{display:grid;justify-items:center;text-align:center;min-height:230px;align-content:center;padding:20px}
+.reference-placeholder svg{width:36px;height:36px;color:var(--accent)}
+.reference-placeholder h2,.reference-entry-head h2{margin:8px 0 2px;font-size:clamp(1.55rem,3vw,2.35rem);line-height:1.15;letter-spacing:-.04em}
+.reference-entry-head p{margin:6px 0 10px;color:var(--sub);font-size:1.05rem}
+.reference-entry-head h2:focus{outline:none}
+.reference-pronunciation,.reference-tags,.reference-links{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}
+.reference-ipa{font-size:.9rem;color:var(--sub);font-family:ui-monospace,monospace;overflow-wrap:anywhere}
+.reference-section{margin:22px 0}
+.reference-section h3{margin:0 0 9px;font-size:1.06rem}
+.reference-section p{margin:6px 0}
+.reference-examples{display:grid;gap:8px}
+.reference-examples li,.reference-tip{background:var(--surface-alt);border-radius:12px;padding:10px 13px}
+.reference-tip p{margin:3px 0 0}
+.reference-tense,.reference-table{margin:8px 0;border:1px solid var(--hair);border-radius:11px}
+.reference-tense>.reference-table{border:0;border-top:1px solid var(--hair);border-radius:0;margin:0}
+.reference-tense>summary{padding:11px 13px;font-weight:720;cursor:pointer}
+.reference-table{overflow:auto}
+.reference-table table{width:100%;border-collapse:collapse;text-align:left}
+.reference-table caption{text-align:left;padding:10px;font-weight:720}
+.reference-table th,.reference-table td{padding:7px 10px;border-top:1px solid var(--hair);vertical-align:top}
+.reference-table th{font-size:.83rem;color:var(--sub);font-weight:650}
+.reference-table td>.speech-controls{margin-left:4px}
+.reference-table .speech-button,.reference-examples .speech-button{min-height:44px}
+.reference-variants{margin:4px 0;font-size:.86rem}
+.reference-variants summary{cursor:pointer;color:var(--accent-dark)}
+.reference-variants ul{margin:4px 0;padding-left:18px}
+.reference-parts{display:block;margin-top:4px;color:var(--sub)}
+.reference-pattern{padding:0 13px 12px}
+@media(max-width:1050px){.reference-grid{grid-template-columns:minmax(0,1fr)}.reference-results{max-height:250px}}
+@media(max-width:800px){.mobile-nav button{flex:1 1 0;min-width:0;padding:2px;font-size:clamp(8px,2.5vw,10px)}.reference-search,.reference-detail{padding:16px}}

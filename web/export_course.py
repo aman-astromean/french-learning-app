@@ -3,6 +3,7 @@
 import json
 import sqlite3
 from pathlib import Path
+from export_reference import export_reference
 
 HERE = Path(__file__).resolve().parent
 DB = HERE.parent / 'french_course' / 'french_course.sqlite'
@@ -93,5 +94,6 @@ for level in levels:
             payload[str(day)]['enrichment']={k:pack[k] for k in ('unit_id','title','summary_en','grammar_note_en','review_status','expressions','pronunciation')}
             payload[str(day)]['enrichment'].update({'schedule':schedule,'resources':[r for r in pack['resources'] if r['kind']==schedule['activity']], 'tasks':[t for t in pack['tasks'] if t['kind']==schedule['activity']]})
     (OUT/f'{code.lower()}.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+export_reference(OUT,conversation,lexical_reference,verb_reference,pronominal,sentence_patterns)
 connection.close()
 print('Exported',len(lessons),'days and',len(units),'units')

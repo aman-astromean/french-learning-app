@@ -1,16 +1,21 @@
 const locale = 'fr-FR';
 const key = text => text.normalize('NFC').replace(/[’ʼ]/g, "'").trim().replace(/\s+/g, ' ');
-let clips = {};
+let clips;
+let indexRequest;
 let active;
 let ticket = 0;
 
 // Preload just the index. Audio is downloaded only when the learner presses play.
-export async function loadPronunciation() {
-  try {
-    const response = await fetch('./audio/index.json');
-    if (response.ok) clips = (await response.json()).clips || {};
-  } catch { /* The site can still use an available French device voice. */ }
-  window.speechSynthesis?.getVoices();
+export function loadPronunciation() {
+  if (clips) return Promise.resolve(true);
+  indexRequest ||= fetch('./audio/index.json').then(async response => {
+    if (!response.ok) return false;
+    const data = await response.json();
+    if (data.voice !== 'ff_siwis' || !data.clips) return false;
+    clips = data.clips;
+    return true;
+  }).catch(() => false).finally(() => { indexRequest = undefined; });
+  return indexRequest;
 }
 
 function message(text) {
@@ -46,6 +51,15 @@ export async function playPronunciation(button) {
     button.setAttribute('aria-pressed', 'true');
     message(label + (slow ? ' · slow' : ''));
   };
+  if (!clips) {
+    message('Loading French audio…');
+    const ready = await loadPronunciation();
+    if (current !== ticket) return;
+    if (!ready) {
+      finish('French audio is temporarily unavailable. Tap Listen to retry.');
+      return;
+    }
+  }
   const clip = Object.hasOwn(clips, text) ? clips[text] : '';
   if (typeof clip === 'string' && /^[a-f0-9]{24}\.mp3$/.test(clip)) {
     const audio = new Audio(`./audio/${clip}`);
@@ -60,6 +74,8 @@ export async function playPronunciation(button) {
     } catch {
       if (current !== ticket) return;
       audio.pause();
+      finish('Could not play the French recording. Tap Listen to retry.');
+      return;
     }
   }
   const synth = window.speechSynthesis;

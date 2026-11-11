@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a small, reproducible French neural audio bank for static hosting."""
+"""Generate a reproducible French neural audio bank for static hosting."""
 import hashlib
 import json
 import sqlite3
@@ -21,9 +21,12 @@ def targets(db):
     queries = (
         'SELECT example_fr FROM pronunciation_items WHERE lesson_id<=14 ORDER BY lesson_id,position',
         'SELECT example_fr FROM lessons WHERE day_number<=14 AND example_fr IS NOT NULL ORDER BY day_number',
-        'SELECT front FROM flashcards WHERE lesson_id<=14 AND direction=\'fr_en\' ORDER BY id',
-        'SELECT french FROM conversation_words ORDER BY rank LIMIT 100',
-        "SELECT french FROM lexemes WHERE french IN ('bonjour','merci','salut','au revoir','s’il vous plaît','oui','non','pardon','excusez-moi')",
+        'SELECT front FROM flashcards WHERE direction=\'fr_en\' ORDER BY id',
+        'SELECT french FROM conversation_words ORDER BY rank',
+        'SELECT french FROM lexemes',
+        'SELECT infinitive FROM verbs',
+        'SELECT lemma FROM pronominal_verbs',
+        'SELECT form FROM lexical_inflections',
     )
     return sorted({normalize(text) for query in queries for (text,) in db.execute(query) if text.strip() and '/' not in text})
 
@@ -48,7 +51,9 @@ def main():
     voice = torch.load(download(f'voices/{VOICE}.pt'), map_location='cpu', weights_only=True)
     pipeline = KPipeline(lang_code='f', repo_id=MODEL, model=model, device='cpu')
     ffmpeg = get_ffmpeg_exe()
-    for text in phrases:
+    for i, text in enumerate(phrases, 1):
+        if i % 250 == 0:
+            print(f'Preparing clip {i}/{len(phrases)}', flush=True)
         filename = hashlib.sha256(f'{REVISION}\n{VOICE}\n{text}'.encode()).hexdigest()[:24]+'.mp3'
         file = out/filename
         if not file.is_file():

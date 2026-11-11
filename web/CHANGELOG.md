@@ -1,5 +1,9 @@
 # Parole UI change log
 
+## 2026-11-11 · Consistent French word audio
+
+- Expanded the Kokoro audio bank to dictionary words and word forms, verb headwords, and flashcards. A failed recording no longer falls back to a different voice.
+
 ## 2026-11-11 · Flashcard deck and visual refresh
 
 - Added Previous and Next, left/right swipe and arrow-key navigation. The deck wraps and opens each new card on its French side.

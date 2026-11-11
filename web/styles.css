@@ -62,3 +62,12 @@
 .comprehension-question label{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer}
 .comprehension-question input{flex:0 0 auto;accent-color:var(--accent,#007aff)}
 .comprehension-question details{margin-top:12px}
+.speech-controls{display:inline-flex;gap:6px;flex-wrap:wrap;vertical-align:middle}
+.speech-button{display:inline-flex;align-items:center;gap:5px;min-height:44px;padding:0 10px;border:1px solid var(--border);border-radius:10px;background:transparent;color:var(--accent);font:inherit;font-size:.82rem;font-weight:650;cursor:pointer}
+.speech-button svg{width:16px;height:16px;flex:none}
+.speech-button:hover,.speech-button[aria-pressed="true"]{background:color-mix(in srgb,var(--accent) 13%,transparent)}
+.speech-button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sound-card .speech-controls,.word-with-audio .speech-controls{margin-top:8px}
+.word-with-audio{min-width:0}
+.speech-status{position:fixed;right:16px;bottom:90px;z-index:65;max-width:min(27rem,calc(100vw - 32px));margin:0;padding:10px 14px;border-radius:12px;background:#202430;color:white;font-size:.9rem;line-height:1.4;pointer-events:none}
+.speech-status:empty{display:none}

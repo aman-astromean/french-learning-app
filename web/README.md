@@ -1,6 +1,6 @@
 # Parole web prototype
 
-A responsive, dependency-free front end for the French course database. It includes the daily dashboard, a 60-unit course browser, lessons and checkpoint quizzes, flashcards, and device-local progress. The first two weeks now present worked teaching steps and a pronunciation panel with IPA, articulation cues and sound contrasts. Later lessons show guided steps and level-appropriate vocabulary. It has no account server or recorded voice yet.
+A responsive, dependency-free front end for the French course database. It includes the daily dashboard, a 60-unit course browser, lessons and checkpoint quizzes, flashcards, and device-local progress. The first two weeks now present worked teaching steps and a pronunciation panel with IPA, articulation cues and sound contrasts. Later lessons show guided steps and level-appropriate vocabulary. It has no account server.
 
 ## Run locally
 
@@ -30,4 +30,12 @@ Lesson vocabulary now exposes IPA, contextual examples and present-tense forms i
 
 ## Weekly skills extensions
 
-From A1 onward, days 2, 3, 5, 6 and 7 of each unit offer optional reading, dialogue preparation, writing, speaking and retrieval. The expanded panel displays its extra suggested time. Comprehension radio groups are self-check practice: reveal the answer and supporting passage after choosing. They do not alter the checkpoint score. Open production tasks include rubrics and are done outside the app; responses are not stored. Dialogue scripts have no recordings. Full data is available in `data/enrichment_reference.json`, with scheduled subsets in the per-level exports. See `../french_course/ENRICHMENT_AUDIT.md` for review scope, schema and limitations.
+From A1 onward, days 2, 3, 5, 6 and 7 of each unit offer optional reading, dialogue preparation, writing, speaking and retrieval. The expanded panel displays its extra suggested time. Comprehension radio groups are self-check practice: reveal the answer and supporting passage after choosing. They do not alter the checkpoint score. Open production tasks include rubrics and are done outside the app; responses are not stored. Dialogue scripts can be played with a French device voice. Full data is available in `data/enrichment_reference.json`, with scheduled subsets in the per-level exports. See `../french_course/ENRICHMENT_AUDIT.md` for review scope, schema and limitations.
+
+## French pronunciation playback
+
+Use **Listen** or **Slow** on sound examples, words and flashcards. Lesson examples and dialogue turns also support playback. Press the active button again to stop. Playback is initiated by the learner, and IPA remains visible alongside the sound drills.
+
+The Pages workflow generates a starter set of `fr-FR` MP3 clips with the [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) model and its `ff_siwis` voice. It pins the model revision and builds audio from the course’s first two weeks and common vocabulary. Static clips need no API key or microphone and are downloaded on demand. The remaining content uses an available French voice through the [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices). Device voices and accents vary; the app will report a missing French voice rather than select an English one. A French system voice may need to be enabled in device settings.
+
+The clips are synthetic learning aids; they have not been independently reviewed by French instructors. Playback does not record or score the learner. Local builds work with device voices unless the optional `web/generate_pronunciation.py` step is run with the dependencies listed in the Pages workflow.

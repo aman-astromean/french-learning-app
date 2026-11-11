@@ -27,3 +27,7 @@ Design follows the principles in Apple's Human Interface Guidelines: legible typ
 ## Expanded learning reference
 
 Lesson vocabulary now exposes IPA, contextual examples and present-tense forms in expandable cards. Lessons with sentence patterns show labelled components and a model-rebuilding task. Full exports are in `data/verb_reference.json`, `data/lexical_reference.json` and `data/sentence_reference.json`; the original `conversation_words.json` contract retains its canonical conjugation list. Examples remain unreviewed, and the interface does not claim recorded audio or automatic pronunciation scoring.
+
+## Weekly skills extensions
+
+From A1 onward, days 2, 3, 5, 6 and 7 of each unit offer optional reading, dialogue preparation, writing, speaking and retrieval. The expanded panel displays its extra suggested time. Comprehension radio groups are self-check practice: reveal the answer and supporting passage after choosing. They do not alter the checkpoint score. Open production tasks include rubrics and are done outside the app; responses are not stored. Dialogue scripts have no recordings. Full data is available in `data/enrichment_reference.json`, with scheduled subsets in the per-level exports. See `../french_course/ENRICHMENT_AUDIT.md` for review scope, schema and limitations.

@@ -52,6 +52,23 @@ for pattern in sentence_patterns:
         task['tokens']=json.loads(task.pop('tokens_json'))
         task['accepted_answers']=json.loads(task.pop('accepted_answers_json'))
 (OUT/'sentence_reference.json').write_text(json.dumps({'patterns':sentence_patterns,'phonemes':rows('SELECT * FROM phoneme_guides ORDER BY symbol'),'pronunciation_rules':rows('SELECT * FROM pronunciation_rules ORDER BY introduced_day,id')},ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+skill_packs=[]
+for pack in rows('SELECT p.*,u.level_code FROM skill_packs p JOIN units u ON u.id=p.unit_id ORDER BY unit_id'):
+    uid=pack['unit_id']
+    pack['resources']=rows('SELECT * FROM skill_resources WHERE unit_id=? ORDER BY id',(uid,))
+    for resource in pack['resources']:
+        resource['turns']=rows('SELECT position,speaker,utterance_fr FROM dialogue_turns WHERE resource_id=? ORDER BY position',(resource['id'],))
+        resource['questions']=rows('SELECT * FROM comprehension_questions WHERE resource_id=? ORDER BY position',(resource['id'],))
+        for question in resource['questions']:
+            question['options']=rows('SELECT position,text_fr,correct FROM comprehension_options WHERE question_id=? ORDER BY position',(question['id'],))
+    pack['expressions']=rows('SELECT phrase_fr,meaning_en FROM skill_expressions WHERE unit_id=? ORDER BY id',(uid,))
+    pack['tasks']=rows('SELECT * FROM production_tasks WHERE unit_id=? ORDER BY id',(uid,))
+    for task in pack['tasks']:
+        task['rubric']=rows('SELECT criterion,guidance_en FROM production_rubrics WHERE task_id=? ORDER BY criterion',(task['id'],))
+    pack['schedule']=rows('SELECT * FROM skill_schedule WHERE unit_id=? ORDER BY lesson_id',(uid,))
+    pack['pronunciation']=rows('SELECT p.practice_en,r.* FROM skill_pronunciation p JOIN pronunciation_rules r ON r.id=p.rule_id WHERE p.unit_id=? ORDER BY r.id',(uid,))
+    skill_packs.append(pack)
+(OUT/'enrichment_reference.json').write_text(json.dumps({'packs':skill_packs,'note':'Original optional weekly extensions. Editorial review pending. Dialogue scripts have no recordings; production is self/partner reviewed, not automatically scored.'},ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 for level in levels:
     code=level['code']
     unit_ids=[unit['id'] for unit in units if unit['level_code']==code]
@@ -70,6 +87,11 @@ for level in levels:
             word['present']=rows('SELECT c.person,c.form,p.ipa FROM conjugations c LEFT JOIN conjugation_pronunciations p USING(verb_id,mood,tense,person) WHERE c.verb_id=? AND c.mood="indicative" AND c.tense="present" ORDER BY CASE c.person WHEN "je" THEN 1 WHEN "tu" THEN 2 WHEN "il" THEN 3 WHEN "il/elle/on" THEN 3 WHEN "nous" THEN 4 WHEN "vous" THEN 5 ELSE 6 END',(word['verb_id'],)) if word['verb_id'] else []
         patterns=[p for p in sentence_patterns if p['introduced_day']==day]
         payload[str(day)]={'blocks':[{'type':b['block_type'],'data':json.loads(b['content_json'])} for b in blocks], 'exercises':exercises,'cards':cards,'pronunciation':pronunciation,'vocabulary':vocabulary,'sentence_patterns':patterns}
+        scheduled=[(p,s) for p in skill_packs for s in p['schedule'] if s['lesson_id']==day]
+        if scheduled:
+            pack,schedule=scheduled[0]
+            payload[str(day)]['enrichment']={k:pack[k] for k in ('unit_id','title','summary_en','grammar_note_en','review_status','expressions','pronunciation')}
+            payload[str(day)]['enrichment'].update({'schedule':schedule,'resources':[r for r in pack['resources'] if r['kind']==schedule['activity']], 'tasks':[t for t in pack['tasks'] if t['kind']==schedule['activity']]})
     (OUT/f'{code.lower()}.json').write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 connection.close()
 print('Exported',len(lessons),'days and',len(units),'units')

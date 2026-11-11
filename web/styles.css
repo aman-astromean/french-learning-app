@@ -52,3 +52,13 @@
 .sentence-tokens span{padding:7px 12px;background:var(--surface-alt);border-radius:9px;font-size:13px}
 .sentence-rebuild{border-top:1px solid var(--hair);padding-top:16px;margin-top:20px}
 .sentence-rebuild summary{cursor:pointer;color:var(--accent-dark);font-weight:650}
+/* Weekly extension practice uses native details and radio groups for keyboard access. */
+.graded-reading{line-height:1.9;white-space:pre-line;max-width:68ch}
+.dialogue-turns{list-style:none;padding:0;display:grid;gap:12px}
+.dialogue-turns li{padding:12px 16px;border-left:3px solid var(--accent,#007aff);background:var(--surface-secondary,rgba(128,128,128,.06));border-radius:8px}
+.dialogue-turns b{display:block;font-size:.85rem;margin-bottom:4px}
+.comprehension-question{margin:18px 0;padding:16px;border:1px solid var(--border,rgba(128,128,128,.25));border-radius:12px;min-width:0}
+.comprehension-question legend{font-weight:600;padding:0 5px}
+.comprehension-question label{display:flex;align-items:center;gap:8px;min-height:44px;cursor:pointer}
+.comprehension-question input{flex:0 0 auto;accent-color:var(--accent,#007aff)}
+.comprehension-question details{margin-top:12px}

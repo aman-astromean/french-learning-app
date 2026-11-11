@@ -7,10 +7,12 @@ from lexicon_growth import apply as apply_lexicon_growth
 from conversation_growth import apply as apply_conversation_growth, apply_extra as apply_extra_conversation_growth, apply_third as apply_third_conversation_growth
 from complete_content import apply as apply_completed_content
 from sentence_building import apply as apply_sentence_building
+from weekly_enrichment import apply as apply_weekly_enrichment
 ROOT=Path(__file__).resolve().parent
 DB=ROOT/'french_course.sqlite'
-if DB.exists(): DB.unlink()
-conn=sqlite3.connect(DB)
+# Build in memory and publish only the validated snapshot. Readers must never
+# see a half-built seed if a rebuild and an export overlap.
+conn=sqlite3.connect(':memory:')
 conn.executescript((ROOT/'schema.sql').read_text())
 levels=[('A0',0,2,'Recognize French print and sounds; greet and exchange very basic information.'),('A1',1,10,'Introduce yourself and handle predictable everyday interactions.'),('A2',2,10,'Manage routine transactions and describe past experiences and plans.'),('B1',3,12,'Narrate, explain opinions, and handle familiar social and professional situations.'),('B2',4,10,'Argue a position, summarize sources, and interact confidently across topics.'),('C1',5,8,'Communicate fluently with control of register, implication, and complex organization.'),('C2',6,8,'Express and interpret fine shades of meaning in demanding communication.')]
 conn.executemany('INSERT INTO levels VALUES (?,?,?,?)',levels)
@@ -153,12 +155,15 @@ apply_extra_conversation_growth(conn)
 apply_third_conversation_growth(conn)
 apply_completed_content(conn)
 apply_sentence_building(conn)
+apply_weekly_enrichment(conn)
 conn.commit()
 checks={
 'levels':7,'units':60,'lessons':420,'learn_lessons':360,'review_lessons':60,'grammar_topics':360,'alphabet':26,'numbers':101,'conversation_words':3000,'reference_notes':67,'voice_integrations':1,'content_sources':8,'sentence_patterns':80,'sentence_tasks':160,'vocabulary_pronunciation':3000}
 for table,expected in checks.items():
     actual=conn.execute(f'SELECT COUNT(*) FROM {table}' if table not in ('learn_lessons','review_lessons') else f"SELECT COUNT(*) FROM lessons WHERE kind='{'learn' if table=='learn_lessons' else 'review'}'").fetchone()[0]
     assert actual==expected,(table,actual,expected)
+for table,expected in {'skill_packs':58,'skill_resources':116,'comprehension_questions':290,'production_tasks':116,'skill_expressions':174,'skill_schedule':290}.items():
+    assert conn.execute(f'SELECT COUNT(*) FROM {table}').fetchone()[0]==expected,(table,expected)
 assert not conn.execute('PRAGMA foreign_key_check').fetchall()
 assert conn.execute('PRAGMA integrity_check').fetchone()[0]=='ok'
 assert not conn.execute('SELECT exercise_id FROM exercise_choices GROUP BY exercise_id HAVING SUM(correct)!=1 OR COUNT(*)!=3').fetchall()
@@ -178,5 +183,8 @@ with (ROOT/'course_days.csv').open('w',newline='',encoding='utf-8') as output:
     writer=csv.writer(output)
     writer.writerow([column[0] for column in cur.description])
     writer.writerows(cur)
+temporary_db=DB.with_suffix('.sqlite.tmp')
+temporary_db.write_bytes(conn.serialize())
+temporary_db.replace(DB)
 conn.close()
 print('Built',DB,'with',checks)

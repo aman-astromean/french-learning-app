@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - "web/**"
+      - "french_course/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -25,6 +26,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Generate the lesson data from this revision
+        run: |
+          python3 french_course/build.py
+          python3 web/export_course.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

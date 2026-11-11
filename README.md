@@ -6,6 +6,8 @@ Open the [web prototype](web/README.md) for a working Apple-inspired interface w
 
 See [course documentation](french_course/README.md) for contents, build instructions, and practical limits. See [voice integration candidate](french_course/VOICE_INTEGRATION.md) for the pinned external repository and what is required before French speaking practice can use it.
 
+The [weekly skills expansion](french_course/ENRICHMENT_AUDIT.md) adds 58 original A1–C2 readings, 58 dialogue scripts, 290 comprehension questions, 116 writing/speaking tasks and 348 contextual flashcards. Activities are scheduled through each existing week; A0 remains pronunciation first. Selected private reference materials informed the expansion without being republished.
+
 ## Rebuild
 
 ```bash

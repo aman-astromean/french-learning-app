@@ -1,0 +1,16 @@
+name: Check front-end
+on:
+  push:
+    branches: [front-end]
+permissions:
+  contents: read
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check browser modules
+        run: |
+          for file in web/*.js; do
+            node --input-type=module --check < "$file"
+          done

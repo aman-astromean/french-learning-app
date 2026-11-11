@@ -2,7 +2,7 @@ name: Deploy French learning app
 
 on:
   push:
-    branches: [main]
+    branches: [main, front-end]
     paths:
       - "web/**"
       - "french_course/**"
@@ -26,12 +26,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: front-end
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: course-source
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Generate the lesson data from this revision
         run: |
-          python3 french_course/build.py
+          python3 course-source/french_course/build.py
+          cp course-source/french_course/french_course.sqlite french_course/french_course.sqlite
           python3 web/export_course.py
       - name: Cache the French neural clips
         id: audio-cache

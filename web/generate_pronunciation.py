@@ -32,6 +32,7 @@ def main():
     import numpy as np
     import torch
     from huggingface_hub import hf_hub_download
+    from imageio_ffmpeg import get_ffmpeg_exe
     from kokoro import KModel, KPipeline
 
     torch.set_num_threads(2)
@@ -46,6 +47,7 @@ def main():
     model = KModel(repo_id=MODEL, config=download('config.json'), model=download('kokoro-v1_0.pth')).eval()
     voice = torch.load(download(f'voices/{VOICE}.pt'), map_location='cpu', weights_only=True)
     pipeline = KPipeline(lang_code='f', repo_id=MODEL, model=model, device='cpu')
+    ffmpeg = get_ffmpeg_exe()
     for text in phrases:
         filename = hashlib.sha256(f'{REVISION}\n{VOICE}\n{text}'.encode()).hexdigest()[:24]+'.mp3'
         file = out/filename
@@ -58,7 +60,7 @@ def main():
             if len(audio) < 2400 or not np.isfinite(audio).all() or float(np.abs(audio).max()) < 0.001:
                 raise ValueError(f'Invalid speech generated for {text!r}')
             tmp = file.with_suffix('.tmp')
-            subprocess.run(['ffmpeg','-v','error','-y','-f','f32le','-ar','24000','-ac','1','-i','pipe:0','-codec:a','libmp3lame','-b:a','48k','-f','mp3',str(tmp)],input=audio.tobytes(),check=True)
+            subprocess.run([ffmpeg,'-v','error','-y','-f','f32le','-ar','24000','-ac','1','-i','pipe:0','-codec:a','libmp3lame','-b:a','48k','-f','mp3',str(tmp)],input=audio.tobytes(),check=True,timeout=30)
             tmp.replace(file)
         clips[text] = filename
     (out/'index.json').write_text(json.dumps({'locale':'fr-FR','model':MODEL,'revision':REVISION,'voice':VOICE,'clips':clips},ensure_ascii=False)+'\n',encoding='utf-8')

@@ -2,11 +2,15 @@ name: Deploy French learning app
 
 on:
   push:
-    branches: [main, front-end]
+    branches: [main]
     paths:
       - "web/**"
       - "french_course/**"
       - ".github/workflows/pages.yml"
+  workflow_run:
+    workflows: [Check front-end]
+    types: [completed]
+    branches: [front-end]
   workflow_dispatch:
 
 permissions:
@@ -20,6 +24,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

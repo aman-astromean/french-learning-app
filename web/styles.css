@@ -118,3 +118,26 @@
 .reference-pattern{padding:0 13px 12px}
 @media(max-width:1050px){.reference-grid{grid-template-columns:minmax(0,1fr)}.reference-results{max-height:250px}}
 @media(max-width:800px){.mobile-nav button{flex:1 1 0;min-width:0;padding:2px;font-size:clamp(8px,2.5vw,10px)}.reference-search,.reference-detail{padding:16px}}
+
+/* Parole palette: lavender surfaces, plum controls, pink progress. */
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;--bg:#f8f5fc;--surface:#fff;--surface-alt:#f4eefb;--ink:#241b32;--sub:#62556f;--hair:#e4dcee;--accent:#6841b8;--accent-dark:#512a98;--accent-soft:#efe5ff;--peach:#ffd84d;--nav-bg:rgba(252,248,255,.9);--progress-pink:#d33a9f;--stack-front:#f6efff;--stack-mid:#c9c1f4;--stack-back:#b5a2ff}
+:root[data-theme="dark"]{--progress-pink:#fd7ed5;--stack-front:#2b213c;--stack-mid:#483667;--stack-back:#554379}
+.page-title-row h1,.lesson-heading{font-weight:650;letter-spacing:-.04em}
+.primary-button,.secondary-button,.reference-input{border-radius:999px}
+.primary-button{background:var(--accent-dark);color:white}
+:root[data-theme="dark"] .primary-button{background:#c9b7ff;color:#24153d}
+.track>span,.lesson-progress>span{background:var(--progress-pink)}
+.speech-button{border-color:var(--hair)}
+.flashcard-wrap{max-width:660px}
+.flashcard-stack{position:relative;isolation:isolate;margin:10px 10px 26px}
+.flashcard-stack.has-stack::before,.flashcard-stack.has-stack::after{content:"";position:absolute;z-index:-1;border-radius:30px;inset:8px 10px -10px;background:var(--stack-mid);pointer-events:none}
+.flashcard-stack.has-stack::before{inset:16px 21px -19px;background:var(--stack-back)}
+.flashcard{position:relative;min-height:clamp(250px,45vh,350px);padding:clamp(19px,5vw,35px);background:var(--stack-front);touch-action:pan-y;user-select:none;transform:translateX(var(--drag-x,0px)) rotate(var(--drag-tilt,0deg));overflow-wrap:anywhere}
+.flashcard .front-text{font-weight:650;font-size:clamp(1.55rem,5vw,2.7rem)}
+.deck-swipe-hint{text-align:center;color:var(--sub);font-size:.88rem}
+.flashcard-wrap .deck-controls{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.flashcard-wrap .deck-controls button{min-height:44px}
+@keyframes card-arrive{from{opacity:.35;transform:translateX(var(--arrive-x)) rotate(var(--arrive-tilt)) scale(.96)}to{opacity:1;transform:none}}
+.card-from-left{--arrive-x:-28px;--arrive-tilt:-4deg;animation:card-arrive 240ms ease-out}
+.card-from-right{--arrive-x:28px;--arrive-tilt:4deg;animation:card-arrive 240ms ease-out}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.flashcard{animation:none;transform:none}}
